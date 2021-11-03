@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Miamiohlibs/freedom-summer-exhibit
+  repo: freedom-summer-exhibit/freedom-summer-exhibit-github.io
   branch: main # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
@@ -15,9 +15,24 @@ slug: "{{year}}-{{month}}-{{day}}-{{title}}"
 fields: # The fields each document in this collection have
   - { label: "Title", name: "title", widget: "string", tagname: "h1" }
   - { label: "Body", name: "body", widget: "markdown" }
-  - { label: "Featured Image", name: "feature-image", widget: "image", required: false }
-  - { label: "Caption", name: "feature_caption", widget: "string", required: false }
-  - { label: "Alt-Text", name: "feature-alt", widget: "string", required: false }
+  - {
+      label: "Featured Image",
+      name: "feature-image",
+      widget: "image",
+      required: false,
+    }
+  - {
+      label: "Caption",
+      name: "feature_caption",
+      widget: "string",
+      required: false,
+    }
+  - {
+      label: "Alt-Text",
+      name: "feature-alt",
+      widget: "string",
+      required: false,
+    }
 
   - {
       label: "Categories",
