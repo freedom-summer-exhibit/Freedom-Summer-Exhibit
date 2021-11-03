@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: freedom-summer-exhibit/freedom-summer-exhibit-github.io
+  repo: freedom-summer-exhibit/freedom-summer-exhibit.github.io
   branch: main # Branch to update (master by default)
+  site_domain: freedom-summer-exhibit.github.io
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
