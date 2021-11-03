@@ -9,17 +9,17 @@ layout: default
 
   <div class="page-content">
         
-          {% for post in site.posts %}
+          {% for post in site.pages %}
             <section class="contents">
             
-            {% if post.feature-image %}       
+            {% if page.feature-image %}       
                 <div class="">
-                    <a href="{{ post.url }}"><img class="feature-image" src="{{post.feature-image}}" alt="{{post.title}}"></a>
+                    <a href="{{ post.url }}"><img class="feature-image" src="{{page.feature-image}}" alt="{{page.title}}"></a>
                 </div>
             {% endif %}
 
               <h2 class="">
-                  <a class="" href="{{ post.url }}">{{post.title }}</a>
+                  <a class="" href="{{ page.url }}">{{page.title }}</a>
                 </h2>
               </section>
           {% endfor %}
