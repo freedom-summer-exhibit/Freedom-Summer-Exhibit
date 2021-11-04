@@ -6,7 +6,7 @@ backend:
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
-collections: # A list of collections the CMS should be able to edit
+collections: # I dont think we need a collection for one-off pages, but it's here as a holder
   - label: "Page" # Used in the UI, ie.: "New Post"
     name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
     folder: "_pages" # The path to the folder where the documents are stored
@@ -15,33 +15,8 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - {
-          label: "Featured Image",
-          name: "feature-image",
-          widget: "image",
-          required: false,
-        }
-      - {
-          label: "Caption",
-          name: "feature_caption",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Alt-Text",
-          name: "feature-alt",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Categories",
-          name: "categories",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-        }
+      - { label: "Featured Image", name: "feature-image", widget: "image", required: false }
+      - { label: "Caption", name: "feature_caption", widget: "string", required: false }
+      - { label: "Alt-Text", name: "feature-alt", widget: "string", required: false }
+      - { label: "Categories", name: "categories", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss" }
