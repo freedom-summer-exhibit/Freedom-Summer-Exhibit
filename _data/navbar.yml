@@ -1,0 +1,9 @@
+#_data/navbar.yml
+- name: Home
+  link: /
+- name: History
+  link: /history
+- name: About the Exibit
+  link: /about
+- name: Related Resources
+  link: /related

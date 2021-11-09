@@ -1,0 +1,345 @@
+@import "minima";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* --- Accessibiity focus --- */
+:focus {
+  outline: auto 2px Highlight!important;
+  outline: auto 5px -webkit-focus-ring-color!important;
+}
+
+a.more-info:focus {
+  outline: auto 3px Highlight !important;
+  outline: auto 5px -webkit-focus-ring-color !important;
+}
+
+/* refactor this at some point */
+/*---Firefox-only adjustments ---*/
+@supports (-moz-appearance: none) {}
+
+
+/*---CUSTOM site-wide CSS STARTS HERE---*/
+
+/*
+1.0 @ Miscellaneous
+2.0 @ Landing Pages Decoration
+3.0 @ Instruction Support pages
+4.0 @ Location pages
+5.0 @ /digital-collections/ page
+6.0 @ font-face for university's Adelle fonts
+*/
+
+
+/**
+ * 1.0 @ Miscellaneous
+ * ----------------------------------------------------------------------------*/
+
+//  Cusomized color set
+$FS-blue:       #233f6c;
+$FS-blue-light: #b0b9c9;
+$FS-ivory:      #cdc8c0;
+$FS-ivory-light:#ede9e1;
+$FS-red:        #b83431;
+$FS-grey:       #494947;
+$FS-grey-light: #908c86;
+$FS-grey-dark:  #2d2c2a;
+
+$body-bg: $FS-ivory-light !important;
+
+// /spaces/computer-labs/
+a {
+  color: $FS-blue!important;
+
+  &:hover {
+    text-decoration: underline!important;
+  }
+}
+
+// Side menu links on the left side bar
+.linksLeftSidebar li {
+  list-style: none !important;
+  line-height: 1.5em;
+  // font-size: large;
+  margin-bottom: 0.75em;
+  padding-left: 0.5em;
+  padding-right: -0.5em;
+
+  a {
+    color: $grey-color-dark;
+  }
+
+  &:hover {
+    background-color: $brand-color;
+    padding-right: 0.1em;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+// breadcrumbs
+#breadcrumbs {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-stretch: extra-condensed;
+  font-weight: bolder;
+  text-transform: uppercase;
+  left: 200px;
+}
+
+// /find/books page
+.card-header .fa {
+  margin-right: 0.3rem;
+  transition: 0.3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+  transform: rotate(-90deg);
+}
+
+.newsIcon{
+  height: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  ul.linksLeftSidebar{
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+  }
+}
+
+/**
+   * 2.0 @ Landing Pages Decoration
+   * --------------------------------------------------------------------------*/
+#bannerBGTitle {
+  @include font-size(3rem !important);
+  background-color: rgba(255,255,255,.4);
+  text-shadow: 2px 2px 5px #000000;
+  padding: 0.8rem;
+  border: 8px solid white;
+
+  &:after {
+    display: none;
+  }
+}
+
+#landingBGTitle {
+  background-color: rgba(255,255,255,.5);
+  text-shadow: 2px 2px 5px #000000;
+  padding: 0.8rem;
+
+  &:after {
+    display: none;
+  }
+}
+
+.landing {
+  position: absolute;
+  top: 15%;
+}
+
+.landing-content {
+  background: rgba(70,70,70, 0.85);
+  border-top: 2px solid $white;
+}
+
+.landing-image {
+  object-fit: cover;
+  height: 42rem;
+}
+
+.text-link-white {
+  a,
+  a:hover,
+  a:visited {
+    color: white;
+  }
+}
+
+.text-link-white li {
+  margin-bottom: 0.5rem;
+}
+
+// screen larger than 991px move down title
+@media only screen and (max-width: 991px) {
+  .landing {
+    top: 3%;
+  }
+}
+
+/**
+   * 3.0 @ Instruction Support pages
+   * --------------------------------------------------------------------------*/
+
+#instruct-form-card {
+  margin-bottom: 2em;
+}
+
+#instruct-form-card .card-body {
+  margin: 0;
+  padding: 1em 1.5em 1.5em 1.5em !important;
+}
+
+#instruct-form-card .btn {
+  margin-top: 1.25em !important;
+}
+
+// Below is optional button styling
+div.profile-contact {
+  border: 1px solid #aaa;
+  border-radius: 0 0 5px 5px;
+  padding: 1em;
+}
+
+.mysched {
+  margin-top: 1em;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  color: #333333;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+#mysched_31733:hover {
+  opacity: 0.9;
+}
+
+
+/**
+ * 4.0 @ Location pages
+ * ----------------------------------------------------------------------------*/
+.banner-image {
+  object-fit: cover;
+  height: 30rem;
+}
+
+.centerTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mapouter {
+  text-align: right;
+  height: 350px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 350px;
+}
+
+
+/**
+ * 5.0 @ /digital-collections/ page
+ * ----------------------------------------------------------------------------*/
+ul.digital-collections-list li {
+  float: left;
+  position: relative;
+  height: 20em;
+  overflow: hidden;
+}
+
+ul.digital-collections-list h2 {
+  margin: 11.5em 0 2em;
+  background-color: #000;
+  opacity: 0.8;
+  @include font-size(1.25rem);
+  font-weight: bold;
+}
+
+ul.digital-collections-list img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  opacity: 1 !important;
+  transition: transform 1s;
+}
+
+ul.digital-collections-list img:hover {
+  transform: scale(1.1);
+}
+
+
+/**
+ * 6.0 @ font-face for university's Adelle fonts
+ * ----------------------------------------------------------------------------*/
+//  Adelle
+@font-face {
+  font-family: 'Adelle Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_Reg.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_Italic.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_LightItalic.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_light.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle SemiBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_SemiBoldItalic.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_Semibold.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_Bold.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_BoldItalic.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_ExtraBold.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle ExtraBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_ExtraBoldItalic.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_Heavy.woff") format('woff');
+}
+@font-face {
+  font-family: 'Adelle Heavy Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/adelle-cufonfonts-webfont/Adelle_HeavyItalic.woff") format('woff');
+}
