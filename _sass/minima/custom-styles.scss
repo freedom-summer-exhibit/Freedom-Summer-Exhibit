@@ -35,17 +35,9 @@ small {
     opacity: 0.85;
 }
 
-.centered-home {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-// center for upper page image; all but home.html
 .centered {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -55,7 +47,7 @@ small {
 h2 {
     color: rgb(8, 65, 112);
     font-size: x-large;         // is not x-large
-    padding-top: 3rem;
+    padding-top: 6rem;
     padding-bottom: 2rem;
     font-weight: bold;          // is not bold?
 }
@@ -77,6 +69,7 @@ h2 {
   display:inline-block;
 }
 
+// Related Resources card margin
 .mb-2 {
     // ($spacer * 0.5) equivalent; $spacer erroring
     margin-bottom:2rem;

@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
-<div class = "row col-10">
-    <h1>{{page.title}}</h1>
-<img src = "/assets/images/0a1070434.jpg">
-</div>
-
-<div class="container col-12 col-lg-8">
-    {{content}}
-</div>
+<article class="page">
+    <div class="page-content">
+      <div class="row col-12">
+        <div class="img-wrapper">
+          <!-- Image requires better caption once we have context. -->
+          <img src="/assets/images/Untitled_3.jpeg" alt="image name Untitled_3.jpeg" />
+          <div class="centered">
+            <h1>About the Exhibit</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container col-12 col-lg-8">
+        {{content}}
+      </div>
+    </div>
+  </article>
+  
