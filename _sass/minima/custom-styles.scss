@@ -45,7 +45,7 @@ small {
 // center for upper page image; all but home.html
 .centered {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -58,4 +58,27 @@ h2 {
     padding-top: 3rem;
     padding-bottom: 2rem;
     font-weight: bold;          // is not bold?
+}
+
+// initial related-resources css
+.y-axis{
+  display: block;
+}
+
+.x-axis2 {
+  width:49%;
+}
+
+.x-axis3 {
+  width:33%;
+}
+
+.x-axis2, .x-axis3 {
+  display:inline-block;
+}
+
+.mb-2 {
+    // ($spacer * 0.5) equivalent; $spacer erroring
+    margin-bottom:2rem;
+    margin-top:2rem;
 }
