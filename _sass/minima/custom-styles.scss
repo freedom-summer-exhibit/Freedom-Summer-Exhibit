@@ -1,2 +1,77 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// ===================== footer.html
+// needs alternate footer font stylization within home?
+svg {
+    -webkit-filter: invert(100%);
+    /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+    opacity: 85%;
+    width: 1rem;
+    height: auto;
+}
+
+small {
+    font-size: 0.5rem;
+}
+
+.svg-bg {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 50%; 
+    height: 2rem; 
+    width: 2rem;
+}
+
+// ===================== home.html
+.img-wrapper {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img-wrapper h1 {
+    /* accessibility? */
+    opacity: 0.85;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// pages general
+
+h2 {
+    color: rgb(8, 65, 112);
+    font-size: x-large;         // is not x-large
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-weight: bold;          // is not bold?
+}
+
+// initial related-resources css
+.y-axis{
+  display: block;
+}
+
+.x-axis2 {
+  width:49%;
+}
+
+.x-axis3 {
+  width:33%;
+}
+
+.x-axis2, .x-axis3 {
+  display:inline-block;
+}
+
+// Related Resources card margin
+.mb-2 {
+    // ($spacer * 0.5) equivalent; $spacer erroring
+    margin-bottom:2rem;
+    margin-top:2rem;
+}

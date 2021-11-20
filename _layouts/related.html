@@ -2,43 +2,29 @@
 layout: default
 permalink: /related/
 ---
-
-<!--
-style>
-  .y-axis{
-    display: block;
-  }
-
-  .x-axis2 {
-    width:49%;
-  }
-
-  .x-axis3 {
-    width:33%;
-  }
-
-  .x-axis2, .x-axis3 {
-    display:inline-block;
-  }
-</style>
--->
-
 <article class="page">
-    <div class="page content">
+    <div class="page-content">
         <div class="row col-12">
-            <div class="centered"><h1>Related Resources</h1></div>
-            <!-- Alt text is automatically handled? not auto, but in content?-->
-            <img src="/assets/images/0812410.jpg">
+            <div class="img-wrapper">
+                <!-- Image requires better caption once we have context. -->
+                <img src="/assets/images/Untitled_7-1.jpeg" alt="image name Untitled_7-1" />
+                <div class="centered">
+                    <h1>Related Resources</h1>
+                </div>
+            </div>
         </div>
-        <!-- Alternative container for different type of content or not? -->
         <div class="container col-12 col-lg-8">
+            <h2>Related Resources</h2>
             {{content}}
+        </div>
+        <!-- Cards -->
+        <div class="container col-12 col-lg-8">
             <div class="container col">
                 <!-- Upper Row -->
                 <div class="row">
                     <div class="col">
                         <!-- Card 1 -->
-                        <div class="card width-100 border-0">
+                        <div class="card width-100 border-0 mb-2">
                             <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Freedom Summer Activities at Miami University</h5>
@@ -48,7 +34,7 @@ style>
                     </div>
                     <div class="col">
                         <!-- Card 2 -->
-                        <div class="card width-100 border-0">
+                        <div class="card width-100 border-0 mb-2">
                             <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">National Civil Rights Organizations and Archives</h5>
@@ -61,7 +47,7 @@ style>
                 <div class="row">
                     <div class="col">
                         <!-- Card 1 -->
-                        <div class="card width-100 border-0">
+                        <div class="card width-100 border-0 mb-2">
                             <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Books</h5>
@@ -69,9 +55,9 @@ style>
                             </div>
                         </div>
                     </div>
-                        <!-- Card 2 -->
+                    <!-- Card 2 -->
                     <div class="col">
-                        <div class="card width-100 border-0">
+                        <div class="card width-100 border-0 mb-2">
                             <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Books for Children, Teens, & Young Adults</h5>
@@ -79,9 +65,9 @@ style>
                             </div>
                         </div>
                     </div>
-                        <!-- Card 3 -->
+                    <!-- Card 3 -->
                     <div class="col">
-                        <div class="card width-100 border-0">
+                        <div class="card width-100 border-0 mb-2">
                             <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Documentaries</h5>
@@ -91,12 +77,15 @@ style>
                     </div>
                 </div>
             </div>
-    
-            <div class="container bg-white">
+
+            <div class="container --bs-bg-opacity" style="padding-top:2rem;">
                 <div class="col-md-12 text-center">
-                    <button type="button" class="btn btn-primary">View All Resources</button>
+                    <button type="button" class="btn btn-dark">View All Resources</button>
                 </div>
             </div>
         </div>
     </div>
+</article>
+</div>
+</div>
 </article>
