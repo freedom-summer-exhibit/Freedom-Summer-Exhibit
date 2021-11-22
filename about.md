@@ -24,25 +24,45 @@ There are 12 themes designed to engage students to learn more.
 11. Freedom Summer Memorial
 12. Lessons of Freedom Summer Bow to be an Upstander and Ally
 
-<div class="container col bg-secondary opacity-25">
+<div class="container col bg-secondary">
+    <!-- Upper Row -->
+    <div class="row">
+        <div class="col">
+            <!-- Card 1 -->
+            <div class="card width-100 border-0 mb-2 bg-transparent">
+                <div class="card-body">
+                    <h5 class="card-title">Recognize</h5>
+                    <p class="card-text">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <!-- Card 2 -->
+            <div class="card width-100 border-0 mb-2 bg-transparent">
+                <div class="card-body">
+                    <h5 class="card-title">Create</h5>
+                    <p class="card-text">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Under Row -->
     <div class="row">
         <div class="col">
             <div class="card width-100 border-0 mb-2 bg-transparent">
-                <h5>Recognize</h5>
-                <p>connections between Freedom Summer's people, places and topics through visual communication and scaffolded reflection.</p>
+                <div class="card-body">
+                    <h5 class="card-title">Synthesize</h5>
+                    <p class="card-text">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
+                </div>
             </div>
-            <div class="card width-100 border-0 mb-2 bg-transparent">
-                <h5>Create</h5>
-                <p>a visual representation communicating new understanding of Freedom Summer, relating a big idea of connecting the past, present and personal experience.</p>
         </div>
+        <!-- Card 3 -->
         <div class="col">
             <div class="card width-100 border-0 mb-2 bg-transparent">
-                <h5>Synthesize</h5>
-                <p>historical content with personal experiences to increase empathy for others and advocacy for human rights and social justice.</p>
-            </div>
-            <div class="card width-100 border-0 mb-2 bg-transparent">
-                <h5>Reflect</h5>
-                <p>on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
+                <div class="card-body">
+                    <h5 class="card-title">Reflect</h5>
+                    <p class="card-text">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
+                </div>
             </div>
         </div>
     </div>
