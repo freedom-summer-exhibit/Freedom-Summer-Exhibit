@@ -24,6 +24,30 @@ There are 12 themes designed to engage students to learn more.
 11. Freedom Summer Memorial
 12. Lessons of Freedom Summer Bow to be an Upstander and Ally
 
+<div class="container col bg-secondary opacity-25">
+    <div class="row">
+        <div class="col">
+            <div class="card width-100 border-0 mb-2 bg-transparent">
+                <h5>Recognize</h5>
+                <p>connections between Freedom Summer's people, places and topics through visual communication and scaffolded reflection.</p>
+            </div>
+            <div class="card width-100 border-0 mb-2 bg-transparent">
+                <h5>Create</h5>
+                <p>a visual representation communicating new understanding of Freedom Summer, relating a big idea of connecting the past, present and personal experience.</p>
+        </div>
+        <div class="col">
+            <div class="card width-100 border-0 mb-2 bg-transparent">
+                <h5>Synthesize</h5>
+                <p>historical content with personal experiences to increase empathy for others and advocacy for human rights and social justice.</p>
+            </div>
+            <div class="card width-100 border-0 mb-2 bg-transparent">
+                <h5>Reflect</h5>
+                <p>on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 Through engagement with powerful visual imagery and storytelling, the curiosity and enthusiasm stimulated by the arrival of a traveling exhibit, and immersive lesson plans connecting the past with themes relevant and important to today’s students, the project aims to draw students from across Ohio deeply into a multi-faceted learning experience stimulating critical thinking, social emotional learning, and creative expression.
 
 Academically, the experience encompasses elements of state and national history, social studies, language arts and visual arts. Socially, it traces the roots of the social strife and protest gripping the nation today.
