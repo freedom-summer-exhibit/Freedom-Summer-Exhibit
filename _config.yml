@@ -55,3 +55,20 @@ plugins:
 
 sass:
     sass_dir: _sass
+
+collections:
+  themes: 
+    output: true
+    url: /themes/
+    - volunteers
+    - history
+    - voting-rights
+    - freedin-schools
+    - '1964'
+    - why-mississippi
+    - john-lewis
+    - fannie-lou-hamer
+    - robert-moses
+    - james-chaney
+    - freedom-summer-memorial
+    - lessons
