@@ -23,6 +23,15 @@ small {
     width: 2rem;
 }
 
+// ===================== About card circles
+
+.circle {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
+
 // ===================== home.html
 .img-wrapper {
     position: relative;
@@ -50,6 +59,10 @@ h2 {
     padding-top: 6rem;
     padding-bottom: 2rem;
     font-weight: bold;          // is not bold?
+}
+
+mw-100 {
+  max-width: 100%;
 }
 
 // initial related-resources css
