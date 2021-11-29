@@ -80,6 +80,7 @@ There are 12 themes designed to engage students to learn more.
             </div>
         </div>
     </div>
+</div>
 
 Through engagement with powerful visual imagery and storytelling, the curiosity and enthusiasm stimulated by the arrival of a traveling exhibit, and immersive lesson plans connecting the past with themes relevant and important to today’s students, the project aims to draw students from across Ohio deeply into a multi-faceted learning experience stimulating critical thinking, social emotional learning, and creative expression.
 
