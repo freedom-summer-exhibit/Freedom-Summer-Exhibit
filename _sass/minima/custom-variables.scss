@@ -1,18 +1,4 @@
 // Placeholder to allow overriding predefined variables smoothly.
 
 
-$FS-blue:       #233f6c;
-$FS-blue-light: #b0b9c9;
-$FS-ivory:      #cdc8c0;
-$FS-ivory-light:#ede9e1;
-$FS-red:        #b83431;
-$FS-grey:       #494947;
-$FS-grey-light: #908c86;
-$FS-grey-dark:  #2d2c2a;
 
-$link-base-color:       $FS-blue !important;
-$link-visited-color:    darken($FS-red, 15%) !important;
-
-a {
-    color: $link-base-color !important;
-}
