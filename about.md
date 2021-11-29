@@ -32,7 +32,7 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
-                    <div class="card-horizontal">
+                    <div class="float-start">
                         <div class="circle"></div>
                     </div>
                     <h5 class="card-title">Recognize</h5>
@@ -45,7 +45,7 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
-                    <div class="card-horizontal">
+                    <div class="float-start">
                         <div class="circle"></div>
                     </div>
                     <h5 class="card-title">Create</h5>
@@ -60,7 +60,7 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
-                    <div class="card-horizontal">
+                    <div class="float-start">
                         <div class="circle"></div>
                     </div>
                     <h5 class="card-title">Synthesize</h5>
@@ -73,7 +73,7 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
-                    <div class="card-horizontal">
+                    <div class="float-start">
                         <div class="circle"></div>
                     </div>
                     <h5 class="card-title">Reflect</h5>
