@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-light bg-transparent position-absolute w-100" style="z-index: 1;">
+  <div class="container">
     <button
       class="navbar-toggler"
       type="button"
@@ -21,12 +21,13 @@
           href="home"
         />
       </a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto d-flex justify-content-between w-75">
         {% for item in site.data.navbar %}
+        {% if forloop.last == false %}
         <li class="nav-item">
-          {% if forloop.last == false%}
           <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
-          {% else %}
+        </li>
+        {% else %}
           {% assign themes = site.themes%}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }}</a>
@@ -36,11 +37,10 @@
               {% endfor %}
             </ul>
           </li>
-          {% endif %}
-        </li>
+        {% endif %}
         {% endfor %}
       </ul>
-      <button class="btn btn-outline-success" type="submit">
+      <button class="btn btn-outline-primary-fs" type="submit">
         Plan a visit
       </button>
     </div>

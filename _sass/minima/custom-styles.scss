@@ -6,8 +6,39 @@
 @import
   "minima/custom-variables", // Hook to override predefined variables.
   "minima/base",             // Defines element resets.
-  "minima/layout"           // Defines structure and style based on CSS selectors.
+  "minima/layout",           // Defines structure and style based on CSS selectors.
+  "../node_modules/bootstrap/scss/bootstrap"; // Bootstrap styles.
 ;
+
+// Nav bar
+a.nav-link{
+  color: $gray-700 !important;
+  font-family: Adelle Heavy;
+  font-size: 1.35rem !important;
+  &:hover{
+    text-decoration: underline !important;
+  }
+  &:visited{
+    color: $gray-700 !important;
+  }
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+
+// Cutomized Buttons
+.btn-outline-primary-fs {
+  color: $purple-700 !important;
+  border-color: $blue-700 !important;
+  font-family: Adelle Regular;
+  &:hover {
+    color: white !important;
+    border-color: $blue-500 !important;
+    background-color: $blue-700;
+  }
+}
 
 // ===================== footer.html
 // needs alternate footer font stylization within home?
