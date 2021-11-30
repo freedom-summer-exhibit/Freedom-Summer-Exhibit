@@ -11,9 +11,9 @@ Designed for students in the fourth grade level, the exhibit focuses on the summ
 
 There are 12 themes designed to engage students to learn more.
 
-1. Volunteers
-2. History of the Freedom Summer
-3. Voting Rights
+1. [Volunteers](/themes/volunteers)
+2. [History of the Freedom Summer](/themes/history)
+3. [Voting Rights](/themes/voting-rights)
 4. Freedin Schools and Community Centers
 5. 1964
 6. Why Mississippi?

@@ -24,7 +24,19 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         {% for item in site.data.navbar %}
         <li class="nav-item">
+          {% if forloop.last == false%}
           <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+          {% else %}
+          {% assign themes = site.themes%}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }}</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for theme in themes %}
+              <li><a class="dropdown-item" href="{{ theme.url }}">{{theme.title}}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
