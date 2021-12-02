@@ -24,7 +24,7 @@ There are 12 themes designed to engage students to learn more.
 11. Freedom Summer Memorial
 12. Lessons of Freedom Summer Bow to be an Upstander and Ally
 
-<div class="container col bg-secondary bg-opacity" style="--bs-bg-opacity: .5;">
+<div class="container col bg-secondary bg-opacity-50">
     <!-- Upper Row -->
     <div class="row" style="margin-top: 2rem;">
         <div class="col">
