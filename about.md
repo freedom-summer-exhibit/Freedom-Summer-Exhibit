@@ -35,8 +35,8 @@ There are 12 themes designed to engage students to learn more.
                     <div class="float-start">
                         <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="margin-left: 2rem;">Recognize</h5>
-                    <p class="card-text" style="margin-left: 2rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
+                    <h5 class="card-title" style="margin-left: 4rem;">Recognize</h5>
+                    <p class="card-text" style="margin-left: 4rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
                 </div>
             </div>
         </div>
@@ -48,8 +48,8 @@ There are 12 themes designed to engage students to learn more.
                     <div class="float-start">
                         <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="border-left: 1rem;">Create</h5>
-                    <p class="card-text" style="border-left: 1rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
+                    <h5 class="card-title" style="margin-left: 4rem;">Create</h5>
+                    <p class="card-text" style="margin-left: 4rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
                 </div>
             </div>
         </div>
@@ -62,8 +62,8 @@ There are 12 themes designed to engage students to learn more.
                     <div class="float-start">
                         <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="border-left: 1rem;">Synthesize</h5>
-                    <p class="card-text" style="border-left: 1rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
+                    <h5 class="card-title" style="margin-left: 4rem;">Synthesize</h5>
+                    <p class="card-text" style="margin-left: 4rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
                 </div>
             </div>
         </div>
@@ -74,8 +74,8 @@ There are 12 themes designed to engage students to learn more.
                     <div class="float-start">
                         <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="border-left: 1rem;">Reflect</h5>
-                    <p class="card-text" style="border-left: 1rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
+                    <h5 class="card-title" style="margin-left: 4rem;">Reflect</h5>
+                    <p class="card-text" style="margin-left: 4rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
                 </div>
             </div>
         </div>
