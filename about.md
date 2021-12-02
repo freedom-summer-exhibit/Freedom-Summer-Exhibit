@@ -14,15 +14,15 @@ There are 12 themes designed to engage students to learn more.
 1. [Volunteers](/themes/volunteers)
 2. [History of the Freedom Summer](/themes/history)
 3. [Voting Rights](/themes/voting-rights)
-4. Freedin Schools and Community Centers
-5. 1964
-6. Why Mississippi?
-7. John Lewis
-6. Fannie Lou Hamer
-9. Robert Moses
-10. James Chaney, Andrew Goodman, Michael Schwerner
-11. Freedom Summer Memorial
-12. Lessons of Freedom Summer Bow to be an Upstander and Ally
+4. [Freedin Schools and Community Centers](/themes/freedin-schools)
+5. [1964](/themes/1964)
+6. [Why Mississippi?](/themes/why-mississippi)
+7. [John Lewis](/themes/john-lewis)
+6. [Fannie Lou Hamer](/themes/john-lewis)
+9. [Robert Moses](/themes/robert-moses)
+10. [James Chaney, Andrew Goodman, Michael Schwerner](/themes/chaney-goodman-schwerner)
+11. [Freedom Summer Memorial](/themes/memorial)
+12. [Lessons of Freedom Summer Bow to be an Upstander and Ally](/themes/lessons)
 
 <div class="container col bg-secondary bg-opacity-50">
     <!-- Upper Row -->
