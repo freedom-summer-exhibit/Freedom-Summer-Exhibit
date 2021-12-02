@@ -7,8 +7,8 @@
   "minima/custom-variables", // Hook to override predefined variables.
   "minima/base",             // Defines element resets.
   "minima/layout",           // Defines structure and style based on CSS selectors.
-  "../node_modules/rfs/scss", // Defines responsive font sizes.
-  "../node_modules/bootstrap/scss/bootstrap"; // Bootstrap styles.
+  "../rfs/scss.scss", // Defines responsive font sizes.
+  "../../node_modules/bootstrap/scss/bootstrap.scss"; // Bootstrap styles.
 ;
 
 // Nav bar
