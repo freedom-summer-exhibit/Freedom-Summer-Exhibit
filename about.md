@@ -24,7 +24,7 @@ There are 12 themes designed to engage students to learn more.
 11. Freedom Summer Memorial
 12. Lessons of Freedom Summer Bow to be an Upstander and Ally
 
-<div class="container col bg-secondary">
+<div class="container col bg-secondary bg-opacity" style="--bs-bg-opacity: .5;">
     <!-- Upper Row -->
     <div class="row" style="margin-top: 2rem;">
         <div class="col">
@@ -33,10 +33,10 @@ There are 12 themes designed to engage students to learn more.
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="margin-left: 1rem;">Recognize</h5>
-                    <p class="card-text" style="margin-left: 1rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
+                    <h5 class="card-title" style="margin-left: 2rem;">Recognize</h5>
+                    <p class="card-text" style="margin-left: 2rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
                 </div>
             </div>
         </div>
@@ -46,10 +46,10 @@ There are 12 themes designed to engage students to learn more.
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="margin-left: 1rem;">Create</h5>
-                    <p class="card-text" style="margin-left: 1rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
+                    <h5 class="card-title" style="margin-left: 2rem;">Create</h5>
+                    <p class="card-text" style="margin-left: 2rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
                 </div>
             </div>
         </div>
@@ -60,10 +60,10 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="margin-left: 1rem;">Synthesize</h5>
-                    <p class="card-text" style="margin-left: 1rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
+                    <h5 class="card-title" style="margin-left: 2rem;">Synthesize</h5>
+                    <p class="card-text" style="margin-left: 2rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
                 </div>
             </div>
         </div>
@@ -72,10 +72,10 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <div class="circle h-100"></div>
                     </div>
-                    <h5 class="card-title" style="margin-left: 1rem;">Reflect</h5>
-                    <p class="card-text" style="margin-left: 1rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
+                    <h5 class="card-title" style="margin-left: 2rem;">Reflect</h5>
+                    <p class="card-text" style="margin-left: 2rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
                 </div>
             </div>
         </div>
