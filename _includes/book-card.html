@@ -1,14 +1,12 @@
 <div class="card width-100 border-0 mb-2 bg-transparent">
     <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
     <div class="card-body">
-        <h5 class="card-title">{{ title }}</h5>
+        <h5 class="card-title"><a href="{{ book.url }}">{{ book.title }}</a></h5>
         <div class="card-text">
-            <div class="auth-ill">by Amy Littlesugar</div>
-            <div class="auth-ill">illustrated by Floyd Cooper</div>
-            <div class="auth-ill">Age Range: 4 – 8</div>
-            <p class="description">In this triumphant story based on the 1964 Mississippi Freedom School Summer Project, that celebrates the strength of a people as well as the bravery of one young girl who didn’t let being scared get in her way.</p>
+            <div class="auth-ill">by {{ book.author }}</div>
+            <div class="auth-ill">illustrated by {{ book.illustrator }}</div>
+            <div class="auth-ill">Age Range: {{ book.ages }}</div>
+            <p class="description">{{ book.desc }}</p>
         </div>
     </div>
 </div>
-
-{{ books }}

@@ -13,10 +13,13 @@ permalink: related-books-by-age
 <!-- Liquid implementation -->
 <h2>Children<h2>
 {% assign books=site.data.related-books | where: "category", "children" %}
-{% include book-card.html books=books %}
+{% for book in books %}
+{% include book-card.html book=book %}
+{% endfor %}
 
 <!-- Without Includes -->
 
+<!--
 <h2>Children</h2>
 <div class="card width-100 border-0 mb-2 bg-transparent">
     <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
@@ -30,6 +33,8 @@ permalink: related-books-by-age
         </div>
     </div>
 </div>
+
+-->
 
 <h2>[Placeholder] Older Children and Tweens</h2>
 
