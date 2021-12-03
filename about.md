@@ -24,7 +24,7 @@ There are 12 themes designed to engage students to learn more.
 11. [Freedom Summer Memorial](/themes/memorial)
 12. [Lessons of Freedom Summer Bow to be an Upstander and Ally](/themes/lessons)
 
-<div class="container col bg-secondary bg-opacity-50">
+<div class="container col bg-secondary bg-opacity-25">
     <!-- Upper Row -->
     <div class="row" style="margin-top: 2rem;">
         <div class="col">
@@ -33,7 +33,7 @@ There are 12 themes designed to engage students to learn more.
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
-                        <div class="circle h-100"></div>
+                        <div class="circle"></div>
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Recognize</h5>
                     <p class="card-text" style="margin-left: 4rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
@@ -46,7 +46,7 @@ There are 12 themes designed to engage students to learn more.
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
-                        <div class="circle h-100"></div>
+                        <div class="circle"></div>
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Create</h5>
                     <p class="card-text" style="margin-left: 4rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
@@ -55,24 +55,25 @@ There are 12 themes designed to engage students to learn more.
         </div>
     </div>
     <!-- Under Row -->
+    <!-- Card 3 -->
     <div class="row" style="margin-bottom: 3rem;">
         <div class="col">
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
-                        <div class="circle h-100"></div>
+                        <div class="circle"></div>
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Synthesize</h5>
                     <p class="card-text" style="margin-left: 4rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
                 </div>
             </div>
         </div>
-        <!-- Card 3 -->
+        <!-- Card 4 -->
         <div class="col">
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
-                        <div class="circle h-100"></div>
+                        <div class="circle"></div>
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Reflect</h5>
                     <p class="card-text" style="margin-left: 4rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
