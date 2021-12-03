@@ -19,7 +19,7 @@ permalink: related-books-by-age
             <div class="auth-ill">by Amy Littlesugar</div>
             <div class="auth-ill">illustrated by Floyd Cooper</div>
             <div class="auth-ill">Age Range: 4 – 8</div>
-            <p>In this triumphant story based on the 1964 Mississippi Freedom School Summer Project, that celebrates the strength of a people as well as the bravery of one young girl who didn’t let being scared get in her way.</p>
+            <p class="description">In this triumphant story based on the 1964 Mississippi Freedom School Summer Project, that celebrates the strength of a people as well as the bravery of one young girl who didn’t let being scared get in her way.</p>
         </div>
     </div>
 </div>
