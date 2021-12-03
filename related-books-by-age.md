@@ -11,8 +11,9 @@ permalink: related-books-by-age
 <!-- This page appears to be meant for children and teens, while the other books page appears to be for adults. How should this be handled? -->
 
 <!-- Liquid implementation -->
-{% assign books=site.data.related-books %}
-{{ books }}
+<h2>Children<h2>
+{% assign books=site.data.related-books | where: "category", "children" %}
+{% include book-card.html books=books %}
 
 <!-- Without Includes -->
 
