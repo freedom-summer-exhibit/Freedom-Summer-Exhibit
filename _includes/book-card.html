@@ -4,8 +4,9 @@
         <div class="book-title"><a href="{{ book.link }}">{{ book.title }}</a></div>
         <div class="card-text">
             <div class="auth-ill">by {{ book.author }}</div>
-            <div class="auth-ill">illustrated by {{ book.illustrator }}</div>
-            <div class="auth-ill">Age Range: {{ book.ages }}</div>
+            {% if book.illustrator != null %}
+                <div class="auth-ill">illustrated by {{ book.illustrator }}</div>
+            {% endif %}
             <p class="description">{{ book.desc }}</p>
         </div>
     </div>
