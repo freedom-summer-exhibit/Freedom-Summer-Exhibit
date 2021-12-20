@@ -1,0 +1,13 @@
+<div class="card width-100 border-0 mb-2 bg-transparent">
+    <img src="/assets/images/placeholder.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <div class="book-title"><a href="{{ book.link }}">{{ book.title }}</a></div>
+        <div class="card-text">
+            <div class="auth-ill">by {{ book.author }}</div>
+            {% if book.illustrator != null %}
+                <div class="auth-ill">illustrated by {{ book.illustrator }}</div>
+            {% endif %}
+            <p class="description">{{ book.desc }}</p>
+        </div>
+    </div>
+</div>
