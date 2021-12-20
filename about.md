@@ -55,6 +55,7 @@ There are 12 themes designed to engage students to learn more.
         </div>
     </div>
     <!-- Under Row -->
+    <!-- Card 3 -->
     <div class="row" style="margin-bottom: 3rem;">
         <div class="col">
             <div class="card width-100 border-0 mb-2 bg-transparent">
@@ -67,7 +68,7 @@ There are 12 themes designed to engage students to learn more.
                 </div>
             </div>
         </div>
-        <!-- Card 3 -->
+        <!-- Card 4 -->
         <div class="col">
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
