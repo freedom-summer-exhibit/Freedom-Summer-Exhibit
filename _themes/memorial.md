@@ -1,4 +1,5 @@
 ---
-title: 'Freedom Summer Memorial'
+title: Oxford, OH Memorial
 layout: default
+representation: "memory"
 ---

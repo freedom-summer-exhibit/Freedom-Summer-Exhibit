@@ -20,15 +20,23 @@
 // Nav bar
 a.nav-link {
   color: $gray-700 !important;
-  font-family: Adelle Heavy;
-  font-size: 1.35rem !important;
+  font-family: Adelle Semibold;
+  @include font-size(1.35rem !important);
   &:hover {
     text-decoration: underline !important;
   }
   &:visited {
     color: $gray-700 !important;
   }
+  @include media-breakpoint-down(md){
+    @include font-size(1.05rem !important);
+  }
 }
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: $gray-500 !important;  // overwrite bootstrap
+}
+
 .banner-image {
   object-fit: cover;
   max-height: 45rem;

@@ -16,6 +16,11 @@
     {% else %}
     <div class="container col-12 col-lg-8">
       <h2>{{ page.title }}</h2>
+      {% if page.representation %}
+      <div class="representation text-uppercase h3 text-center">
+        {{ page.representation }}
+      </div>
+      {% endif %}
     </div>
     {% endif %}
 
