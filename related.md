@@ -5,11 +5,11 @@ image: /assets/images/Untitled_7.jpeg
 image_alt: Related Resources
 permalink: /related/
 ---
-## Related Resources
+## Related Resources 
 
-The Freedom Summer Traveling exhibit connects a powerful chapter of
-U.S. civil rights history to current day challenges, “Finding Freedom Summer”
-offers timely reminders of our nation’s troubled history, emphasizes the
+The Freedom Summer Traveling exhibit connects a powerful
+chapter of U.S. civil rights history to current day challenges, “Finding Freedom
+Summer” offers timely reminders of our nation’s troubled history, emphasizes the
 social-emotional attributes of those who stand to make a difference, and
 challenges youth to find and understand the power of their voices. Designed for
 students in the fourth grade level, the exhibit focuses on the summer of 1964
@@ -19,71 +19,44 @@ versatile in its applications, challenges students to apply four active learning
 capacities.
 
 <div class="container-fluid">
+  {% assign categories = site.related %}
   <!-- Upper Row -->
-  <div class="row">
-    <div class="col">
-      <!-- Card 1 -->
-      <div class="card width-100 border-0 mb-2 bg-transparent">
-        <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">
-            <a href="./activities">
-              Freedom Summer Activities at Miami University</a>
-          </h5>
-          <p class="card-text"># of records</p>
+    <div class="row">
+    {% for card in categories %}
+      {% if forloop.index < 3 %} 
+      <div class="col">
+        <div class="card width-100 border-0 mb-2 bg-transparent">
+          <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="{{ card.url }}"> {{ card.title }}</a>
+            </h5>
+            <p class="card-text"> {{ card.size }} records</p>
+          </div>
         </div>
       </div>
+    {% endif %}
+    {% endfor %}
     </div>
-    <div class="col">
-      <!-- Card 2 -->
-      <div class="card width-100 border-0 mb-2 bg-transparent">
-        <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">
-            <a href="./organizations-archives/">
-              National Civil Rights Organizations and Archives</a>
-          </h5>
-          <p class="card-text"># of records</p>
+    <!-- Lower Row -->
+    <div class="row">
+    {% for card in categories %}
+      {% if forloop.index >= 3 %} 
+      <div class="col">
+        <div class="card width-100 border-0 mb-2 bg-transparent">
+          <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="{{ card.url }}"> {{ card.title }}</a>
+            </h5>
+            <p class="card-text"> {{ card.size }} of records</p>
+          </div>
         </div>
       </div>
+    {% endif %}
+    {% endfor %}
     </div>
-  </div>
-  <!-- Under Row -->
-  <div class="row">
-    <div class="col">
-      <!-- Card 1 -->
-      <div class="card width-100 border-0 mb-2 bg-transparent">
-        <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title"><a href="./books"> Books</a></h5>
-          <p class="card-text"># of records</p>
-        </div>
-      </div>
-    </div>
-    <!-- Card 2 -->
-    <div class="col">
-      <div class="card width-100 border-0 mb-2 bg-transparent">
-        <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">
-            <a href="./books-by-age">
-              Books for Children, Teens, & Young Adults</a>
-          </h5>
-          <p class="card-text"># of records</p>
-        </div>
-      </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="col">
-      <div class="card width-100 border-0 mb-2 bg-transparent">
-        <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Documentaries</h5>
-          <p class="card-text"># of records</p>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </div>
 
 <div class="container --bs-bg-opacity" style="padding-top: 2rem">
