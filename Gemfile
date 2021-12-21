@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem "webrick"
   gem "http_parser.rb", "0.6.0"
+  gem 'jekyll-redirect-from'
 end
 
 

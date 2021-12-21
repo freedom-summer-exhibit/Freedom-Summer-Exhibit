@@ -4,6 +4,8 @@ layout: default
 image: /assets/images/T.2019.23.1sm.jpg
 image_alt: Finding Freedom Summer Traveling Exhibit
 ---
+
+{:#history}
 ## History
 
 The Freedom Summer story altered the course of the Civil Rights Movement
