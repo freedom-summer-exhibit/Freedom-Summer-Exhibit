@@ -1,4 +1,4 @@
 ---
-layout: themes
 title: Volunteers
+layout: default
 ---

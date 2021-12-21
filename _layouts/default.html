@@ -1,3 +1,31 @@
 {% include head.html %} 
-{{ content}} 
+
+
+<article class="page">
+    <div class="page-content">
+      <!-- Check if w-100 works according to col standard; need for img-wrapper behavior -->
+      {% if page.image %}
+      <div class="row col w-100">
+        <div class="img-wrapper">
+          <!-- Image requires better caption once we have context. -->
+          <img src="{{ page.image }}" alt="{{page.image_alt}}" />
+          <div class="centered">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div class="container">
+          <h2>{{ page.title }}</h2>
+      </div>
+      {% endif %}
+
+      <div class="container col-12 col-lg-8">
+        {{content}}
+      </div>
+      
+    </div>
+  </article>
+
+
 {% include footer.html %}

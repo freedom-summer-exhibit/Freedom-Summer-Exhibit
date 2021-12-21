@@ -60,4 +60,7 @@ collections:
   themes: 
     output: true
     url: /themes/
+  related: 
+    output: true
+    url: /related/
 

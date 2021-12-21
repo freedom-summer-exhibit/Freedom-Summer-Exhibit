@@ -1,7 +1,9 @@
 ---
-title: About
-layout: about
-permalink: about
+title: About the Exibit
+image: /assets/images/Untitled_3.jpeg
+image_alt: About the Exibit
+layout: default
+permalink: /about/
 ---
 ## About the Exhibit
 

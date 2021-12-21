@@ -1,4 +1,4 @@
 ---
-layout: themes
 title: 'Robert Moses'
+layout: default
 ---

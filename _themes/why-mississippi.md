@@ -1,4 +1,4 @@
 ---
-layout: themes
 title: Why Mississippi?
+layout: default
 ---

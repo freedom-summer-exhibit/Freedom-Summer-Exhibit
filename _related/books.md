@@ -1,7 +1,7 @@
 ---
 title: Books
-layout: related-subpages
-permalink: related-books
+layout: default
+permalink: /related/books/
 ---
 
 <ul>

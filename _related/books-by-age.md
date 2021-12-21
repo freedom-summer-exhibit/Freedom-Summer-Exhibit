@@ -1,7 +1,7 @@
 ---
 title: Books for Children, Teens, & Young Adults
-layout: related-subpages
-permalink: related-books-by-age
+layout: default
+permalink: /related/books-by-age
 ---
 
 <!-- Headings, Containers Separated by Age Group, Cards within Containers -->

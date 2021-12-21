@@ -1,4 +1,4 @@
 ---
-layout: themes
 title: 'Freedom Summer Memorial'
+layout: default
 ---

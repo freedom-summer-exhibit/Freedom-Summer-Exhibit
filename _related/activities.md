@@ -1,7 +1,7 @@
 ---
 title: Freedom Summer Activities at Miami University
-layout: related-subpages
-permalink: related-activities
+layout: default
+permalink: /related/activities
 ---
 
 <ul>

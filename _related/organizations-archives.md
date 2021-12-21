@@ -1,7 +1,7 @@
 ---
 title: National Civil Rights Organizations and Archives
-layout: related-subpages
-permalink: related-organizations-archives
+layout: default
+permalink: /related/organizations-archives/
 ---
 
 <ul>

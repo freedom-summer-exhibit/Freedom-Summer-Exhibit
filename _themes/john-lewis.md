@@ -1,4 +1,4 @@
 ---
-layout: themes
 title: John Lewis
+layout: default
 ---

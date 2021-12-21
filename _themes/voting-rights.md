@@ -1,4 +1,4 @@
 ---
-layout: themes
 title: Voting Rights
+layout: default
 ---
