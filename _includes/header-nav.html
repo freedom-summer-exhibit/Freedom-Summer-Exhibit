@@ -1,25 +1,12 @@
-<nav class="navbar navbar-expand-md navbar-light bg-transparent position-absolute w-100" style="z-index: 1;">
+<nav class="navbar navbar-expand-md navbar-light">
   <div class="container">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#header-nav"
-      aria-controls="header-nav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"
+      aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="header-nav">
       <a class="navbar-brand" href="/">
-        <img
-          src="../../assets/images/logo.png"
-          alt="{{ site.title }}"
-          width="auto"
-          height="80"
-          href="home"
-        />
+        <img src="../../assets/images/logo.png" alt="{{ site.title }}" width="auto" height="80" href="home" />
       </a>
       <ul class="navbar-nav me-auto d-flex justify-content-between w-75">
         {% for item in site.data.navbar %}
@@ -28,15 +15,16 @@
           <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
         </li>
         {% else %}
-          {% assign themes = site.themes%}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }}</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {% for theme in themes %}
-              <li><a class="dropdown-item" href="{{ theme.url }}">{{theme.title}}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
+        {% assign themes = site.themes%}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }}</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for theme in themes %}
+            <li><a class="dropdown-item text-wrap lh-1 my-2" href="{{ theme.url }}">{{theme.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
         {% endif %}
         {% endfor %}
       </ul>

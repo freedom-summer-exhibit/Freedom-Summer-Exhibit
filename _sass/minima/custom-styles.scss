@@ -1,25 +1,46 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-
 // Import pre-styling-overrides hook and style-partials.
-@import
-  "minima/custom-variables", // Hook to override predefined variables.
-  "minima/base",             // Defines element resets.
-  "minima/layout",           // Defines structure and style based on CSS selectors.
+@import "minima/custom-variables",
+  // Hook to override predefined variables.
+  "minima/base",
+  // Defines element resets.
+  "minima/layout",
+  // Defines structure and style based on CSS selectors.
   "../../node_modules/bootstrap/scss/bootstrap.scss"; // Bootstrap styles.
-;
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 // Nav bar
-a.nav-link{
+a.nav-link {
   color: $gray-700 !important;
   font-family: Adelle Heavy;
   font-size: 1.35rem !important;
-  &:hover{
+  &:hover {
     text-decoration: underline !important;
   }
-  &:visited{
+  &:visited {
     color: $gray-700 !important;
+  }
+}
+.banner-image {
+  object-fit: cover;
+  max-height: 45rem;
+}
+
+.centerTitle {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  & h1{
+    opacity: 0.85;
   }
 }
 
@@ -27,6 +48,9 @@ a.nav-link{
   background-color: transparent !important;
 }
 
+.dropdown-menu.show{
+  min-width: 300px;
+}
 
 // Cutomized Buttons
 .btn-outline-primary-fs {
@@ -43,23 +67,23 @@ a.nav-link{
 // ===================== footer.html
 // needs alternate footer font stylization within home?
 svg {
-    -webkit-filter: invert(100%);
-    /* safari 6.0 - 9.0 */
-    filter: invert(100%);
-    opacity: 85%;
-    width: 1rem;
-    height: auto;
+  -webkit-filter: invert(100%);
+  /* safari 6.0 - 9.0 */
+  filter: invert(100%);
+  opacity: 85%;
+  width: 1rem;
+  height: auto;
 }
 
 small {
-    font-size: 0.5rem;
+  font-size: 0.5rem;
 }
 
 .svg-bg {
-    background-color: rgb(255, 255, 255) !important;
-    border-radius: 50%; 
-    height: 2rem; 
-    width: 2rem;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
 }
 
 // ===================== About card circles
@@ -71,74 +95,51 @@ small {
   width: 3rem;
 }
 
-// ===================== home.html
-.img-wrapper {
-    position: center;
-    text-align: center;
-    color: white;
-}
-
-.img-wrapper h1 {
-    /* accessibility? */
-    opacity: 0.85;
-}
-
-.centered {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 // pages general
 
 a {
-    color: $link-base-color !important;
-    &:visited {
-        color: darken($link-visited-color, 15%) !important;
-    }
+  color: $link-base-color !important;
+  &:visited {
+    color: darken($link-visited-color, 15%) !important;
+  }
 }
 
-
 h2 {
-    color: rgb(8, 65, 112);
-    font-size: x-large;         // is not x-large // The value can be numbers, like 3.15rem; If not work, try !important;
-    padding-top: 6rem;
-    padding-bottom: 2rem;
-    font-weight: bold;          // is not bold? // Bold can be applied but it depends on the font property.
-                                                // In this case, fonts are stored in /assets/fonts/adelle. Check on ./_sass/minima/_base.scss for details.
+  color: rgb(8, 65, 112);
+  font-size: x-large; // is not x-large // The value can be numbers, like 3.15rem; If not work, try !important;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  font-weight: bold; // is not bold? // Bold can be applied but it depends on the font property.
+  // In this case, fonts are stored in /assets/fonts/adelle. Check on ./_sass/minima/_base.scss for details.
 }
 
 mw-100 {
   max-width: 100%;
 }
 
-w-100 {
-  width: 100%;
-}
-
 // initial related-resources css
-.y-axis{
+.y-axis {
   display: block;
 }
 
 .x-axis2 {
-  width:49%;
+  width: 49%;
 }
 
 .x-axis3 {
-  width:33%;
+  width: 33%;
 }
 
-.x-axis2, .x-axis3 {
-  display:inline-block;
+.x-axis2,
+.x-axis3 {
+  display: inline-block;
 }
 
 // Related Resources card margin
 .mb-2 {
-    // ($spacer * 0.5) equivalent; $spacer erroring
-    margin-bottom:2rem;
-    margin-top:2rem;
+  // ($spacer * 0.5) equivalent; $spacer erroring
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 // related resources subpages

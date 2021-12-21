@@ -1,31 +1,26 @@
-{% include head.html %} 
-
+{% include head.html %}
 
 <article class="page">
-    <div class="page-content">
-      <!-- Check if w-100 works according to col standard; need for img-wrapper behavior -->
-      {% if page.image %}
-      <div class="row col w-100">
-        <div class="img-wrapper">
-          <!-- Image requires better caption once we have context. -->
-          <img src="{{ page.image }}" alt="{{page.image_alt}}" />
-          <div class="centered">
-            <h1>{{ page.title }}</h1>
-          </div>
+  <div class="page-content">
+    <!-- Check if w-100 works according to col standard; need for img-wrapper behavior -->
+    {% if page.image %}
+    <div class="container-fluid position-relative  d-flex justify-content-center">
+      <!-- Image requires better caption once we have context. -->
+      <img class="banner-image w-100 image-fluid" src="{{ page.image }}" alt="{{page.image_alt}}" />
+      <div class="centerTitle">
+        <div class="text-center text-white">
+          <h1>{{ page.title }}</h1>
         </div>
       </div>
-      {% else %}
-      <div class="container">
-          <h2>{{ page.title }}</h2>
-      </div>
-      {% endif %}
-
-      <div class="container col-12 col-lg-8">
-        {{content}}
-      </div>
-      
     </div>
-  </article>
+    {% else %}
+    <div class="container col-12 col-lg-8">
+      <h2>{{ page.title }}</h2>
+    </div>
+    {% endif %}
 
+    <div class="container col-12 col-lg-8">{{content}}</div>
+  </div>
+</article>
 
 {% include footer.html %}
