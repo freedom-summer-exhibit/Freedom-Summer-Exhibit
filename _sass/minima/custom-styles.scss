@@ -28,13 +28,14 @@ a.nav-link {
   &:visited {
     color: $gray-700 !important;
   }
-  @include media-breakpoint-down(md){
+  @include media-breakpoint-down(md) {
     @include font-size(1.05rem !important);
   }
 }
 
-.dropdown-item.active, .dropdown-item:active {
-  background-color: $gray-500 !important;  // overwrite bootstrap
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: $gray-500 !important; // overwrite bootstrap
 }
 
 .banner-image {
@@ -47,7 +48,7 @@ a.nav-link {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  & h1{
+  & h1 {
     opacity: 0.85;
   }
 }
@@ -56,7 +57,7 @@ a.nav-link {
   background-color: transparent !important;
 }
 
-.dropdown-menu.show{
+.dropdown-menu.show {
   min-width: 150px;
 }
 
@@ -96,19 +97,19 @@ small {
 
 // ===================== About card circles
 
-#about_gallery{
-  min-width: 150%; 
-  margin-left:-25%; 
+#about_gallery {
+  min-width: 150%;
+  margin-left: -25%;
   margin-right: auto;
 
-  @include media-breakpoint-down(lg){
-    min-width: 100%; 
-    margin-left: 0; 
+  @include media-breakpoint-down(lg) {
+    min-width: 100%;
+    margin-left: 0;
     margin-right: auto;
   }
 }
 
-.card-img{
+.card-img {
   width: 200px;
   height: 300px;
   object-fit: cover;
@@ -128,11 +129,11 @@ small {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(8, 65, 112, .6);
+  background-color: rgba(8, 65, 112, 0.6);
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .hv_container:hover .hv_overlay {
@@ -140,15 +141,12 @@ small {
 }
 
 .hv_text {
-  color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .circle {

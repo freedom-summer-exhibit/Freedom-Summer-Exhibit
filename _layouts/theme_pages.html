@@ -4,17 +4,37 @@
   <div class="page-content">
     <div class="container col-12 col-lg-8">
       {% assign title = page.title %}
-      <ul>
-        {% assign themes = site.data.image_captions | where: "Themes", title %}
-        {% for theme in themes %}
-        {% if theme.Filename != "---" %}
-        <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}">
-        <p>{{theme.CreditLine}}</p>
-        {% endif %}
-        {% endfor %}
-      </ul>
-
-      {{content}}
+      {% assign themes = site.data.image_captions | where: "Themes", title %}
+      {% for theme in themes %}
+      {% assign value = forloop.index | modulo: 2%}
+      {% if theme.Filename != "---" %}
+      <div class="card mt-5 border-0 bg-transparent">
+        <div class="row g-0">
+          {% if value == 0 %}
+          <div class="col-md-9">
+            <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+              class="img-fluid rounded-start">
+          </div>
+          <div class="col-md-3">
+            <div class="card-body">
+              <p class="card-text">{{theme.CreditLine}}</p>
+            </div>
+          </div>
+          {% else %}
+          <div class="col-md-3">
+            <div class="card-body">
+              <p class="card-text">{{theme.CreditLine}}</p>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+              class="img-fluid rounded-start">
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
 </article>
