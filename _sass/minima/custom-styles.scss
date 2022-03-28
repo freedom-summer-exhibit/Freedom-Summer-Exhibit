@@ -96,6 +96,61 @@ small {
 
 // ===================== About card circles
 
+#about_gallery{
+  min-width: 150%; 
+  margin-left:-25%; 
+  margin-right: auto;
+
+  @include media-breakpoint-down(lg){
+    min-width: 100%; 
+    margin-left: 0; 
+    margin-right: auto;
+  }
+}
+
+.card-img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+.hv_container {
+  position: relative;
+}
+
+.hv_image {
+  display: block;
+}
+
+.hv_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(8, 65, 112, .6);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.hv_container:hover .hv_overlay {
+  height: 100%;
+}
+
+.hv_text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .circle {
   background-color: rgb(255, 255, 255) !important;
   border-radius: 50%;
