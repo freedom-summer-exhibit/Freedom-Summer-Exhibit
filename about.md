@@ -20,7 +20,7 @@ There are 12 themes designed to engage students to learn more.
     {% for theme in theme_items %}
         {% if theme.Filename contains "_01" %}
         <div class="card p-2 mt-3 border-0 bg-transparent col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 hv_container">
-        <a href="/themes/{{ theme.Themes }}">
+        <a href="/themes/{{ theme.Themes | downcase }}">
             <img src="../assets/images/theme_images/{{ theme.Filename }}" alt='{{ theme.CreditLine }}' class="card-img hv_image"/>
             <div class="card-img-overlay hv_overlay">
             <h5 class="card-title text-white text-center hv_text">{{ theme.Themes }}</h5>
