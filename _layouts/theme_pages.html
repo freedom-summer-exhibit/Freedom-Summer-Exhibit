@@ -1,0 +1,22 @@
+{% include head.html %}
+
+<article class="page">
+  <div class="page-content">
+    <div class="container col-12 col-lg-8">
+      {% assign title = page.title %}
+      <ul>
+        {% assign themes = site.data.image_captions | where: "Themes", title %}
+        {% for theme in themes %}
+        {% if theme.Filename != "---" %}
+        <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}">
+        <p>{{theme.CreditLine}}</p>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+      {{content}}
+    </div>
+  </div>
+</article>
+
+{% include footer.html %}

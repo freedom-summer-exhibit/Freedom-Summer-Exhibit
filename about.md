@@ -5,6 +5,7 @@ image_alt: About the Exibit
 layout: default
 permalink: /about/
 ---
+
 ## About the Exhibit
 
 The Freedom Summer Traveling exhibit connects a powerful chapter of U.S. civil rights history to current day challenges, “Finding Freedom Summer” offers timely reminders of our nation’s troubled history, emphasizes the social-emotional attributes of those who stand to make a difference, and challenges youth to find and understand the power of their voices.
@@ -13,18 +14,19 @@ Designed for students in the fourth grade level, the exhibit focuses on the summ
 
 There are 12 themes designed to engage students to learn more.
 
-1. [Volunteers](/themes/volunteers)
-2. [History of the Freedom Summer](/themes/history)
-3. [Voting Rights](/themes/voting-rights)
-4. [Freedin Schools and Community Centers](/themes/freedin-schools)
-5. [1964](/themes/1964)
-6. [Why Mississippi?](/themes/why-mississippi)
-7. [John Lewis](/themes/john-lewis)
-6. [Fannie Lou Hamer](/themes/john-lewis)
-9. [Robert Moses](/themes/robert-moses)
-10. [James Chaney, Andrew Goodman, Michael Schwerner](/themes/chaney-goodman-schwerner)
-11. [Freedom Summer Memorial](/themes/memorial)
-12. [Lessons of Freedom Summer Bow to be an Upstander and Ally](/themes/lessons)
+{% assign themes = site.themes %}
+{% assign theme_images = site.data.image_captions %}
+
+<div class="row col-12">
+{% for theme in theme_images%}
+{% if theme.Filename != "---" %}
+    <div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+        <img src="../assets/images/theme_images/{{ theme.Filename }}" />
+        <p> {{theme.Themes}} </p>
+    </div>
+{%endif%}
+{% endfor %}
+</div>
 
 <div class="container col bg-secondary bg-opacity-25">
     <!-- Upper Row -->
@@ -101,4 +103,4 @@ Using the visual power of a traveling panel exhibit to tell the story of a cruci
 
 Miami University faculty, staff and the Western College Alumnae Association have leveraged the expertise of undergraduate student talent to develop and refine the lesson plans, activities and essential supporting resources.
 
-“Finding Freedom Summer” focuses on achieving a core set of educational outcomes through deep-learning practices. While its lesson plans can be seamlessly adapted for other grade levels, the project focuses initially on growth in the intellectual and social capacities of fourth and fifth graders. The Deep Learning section offers specific details on outcomes and deep-learning applications.  Miami University Libraries is deeply committed to providing users with an educational experience that promotes the core values of Freedom Summer and the American civil rights movement.
+“Finding Freedom Summer” focuses on achieving a core set of educational outcomes through deep-learning practices. While its lesson plans can be seamlessly adapted for other grade levels, the project focuses initially on growth in the intellectual and social capacities of fourth and fifth graders. The Deep Learning section offers specific details on outcomes and deep-learning applications. Miami University Libraries is deeply committed to providing users with an educational experience that promotes the core values of Freedom Summer and the American civil rights movement.
