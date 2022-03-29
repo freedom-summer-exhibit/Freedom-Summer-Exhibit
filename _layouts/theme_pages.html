@@ -5,6 +5,7 @@
     <div class="container col-12 col-lg-8">
       {% assign title = page.title %}
       {% assign themes = site.data.image_captions | where: "Themes", title %}
+      <h2 class="text-center">{{title}}</h2>
       {% for theme in themes %}
       {% assign value = forloop.index | modulo: 2%}
       {% if theme.Filename != "---" %}
@@ -15,13 +16,13 @@
             <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}"
               class="img-fluid rounded-start">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 d-flex bg-blue-tran">
             <div class="card-body">
               <p class="card-text">{{theme.CreditLine}}</p>
             </div>
           </div>
           {% else %}
-          <div class="col-md-3">
+          <div class="col-md-3 d-flex bg-blue-tran">
             <div class="card-body">
               <p class="card-text">{{theme.CreditLine}}</p>
             </div>
