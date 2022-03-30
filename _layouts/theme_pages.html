@@ -5,11 +5,11 @@
     <div class="container col-12 col-lg-8">
       {% assign title = page.title %}
       {% assign themes = site.data.image_captions | where: "Themes", title %}
-      <h2 class="text-center">{{title}}</h2>
+      <h2>{{title}}</h2>
       {% for theme in themes %}
       {% assign value = forloop.index | modulo: 2%}
       {% if theme.Filename != "---" %}
-      <div class="card mt-5 border-0 bg-transparent">
+      <div class="card mt-4 border-0 bg-transparent">
         <div class="row g-0">
           {% if value == 0 %}
           <div class="col-md-9">

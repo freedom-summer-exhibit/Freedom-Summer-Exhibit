@@ -1,8 +1,8 @@
 #_data/navbar.yml
 - name: History
   link: /history
-- name: About the Exibit
+- name: About the Exhibit
   link: /about
-- name: Related Resources
-  link: /related
+- name: Resources
+  link: /resources
 - name: Themes

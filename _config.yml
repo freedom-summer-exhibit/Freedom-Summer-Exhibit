@@ -61,7 +61,7 @@ collections:
   themes: 
     output: true
     url: /themes/
-  related: 
+  resources: 
     output: true
-    url: /related/
+    url: /resources/
 

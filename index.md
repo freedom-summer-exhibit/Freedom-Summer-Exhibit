@@ -1,7 +1,7 @@
 ---
 title: Finding Freedom Summer Traveling Exhibit
 layout: default
-image: /assets/images/T.2019.23.1sm.jpg
+image: /assets/images/theme_images/Bravery_03.jpg
 image_alt: Finding Freedom Summer Traveling Exhibit
 ---
 
