@@ -40,7 +40,7 @@ There are 12 themes designed to engage students to learn more.
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <img src="/assets/images/Icons/Recognize_icon.png" alt="Recognize" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Recognize</h5>
                     <p class="card-text" style="margin-left: 4rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
@@ -53,7 +53,7 @@ There are 12 themes designed to engage students to learn more.
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <img src="/assets/images/Icons/Create_icon.png" alt="Create" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Create</h5>
                     <p class="card-text" style="margin-left: 4rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
@@ -68,7 +68,7 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <img src="/assets/images/Icons/Synthesize_icon.png" alt="Synthesize" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Synthesize</h5>
                     <p class="card-text" style="margin-left: 4rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
@@ -80,7 +80,7 @@ There are 12 themes designed to engage students to learn more.
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
-                        <div class="circle"></div>
+                        <img src="/assets/images/Icons/Reflect_icon.png" alt="Reflect" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Reflect</h5>
                     <p class="card-text" style="margin-left: 4rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
