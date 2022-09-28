@@ -1,7 +1,7 @@
 ---
 title: Finding Freedom Summer Traveling Exhibit
 layout: default
-image: /assets/images/Complete/Bravery_03.jpg
+image: /assets/images/Complete/Leadership_01_Replace.jpg
 image_alt: Finding Freedom Summer Traveling Exhibit
 permalink: /history
 ---
