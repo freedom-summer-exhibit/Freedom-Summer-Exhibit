@@ -30,7 +30,12 @@ capacities.
        <div class="col-4">
        {% endif %}
         <div class="card width-100 border-0 mb-2 bg-transparent">
-          <img src="/assets/images/placeholder.png" class="card-img-top" alt="..." />
+        {% assign image_files = site.static_files | where: "image", true %}
+        {% for myimage in image_files %}
+        {% if myimage.basename == card.title %}
+        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img-top" alt="{{ myimage.basename }}" style="max-height: 400px; object-fit: cover;" />
+        {% endif %}
+        {% endfor %}
           <div class="card-body">
             <h5 class="card-title">
               <a href="{{ card.url }}"> {{ card.title }}</a>
@@ -43,8 +48,8 @@ capacities.
     </div>
     </div>
 
-<div class="container --bs-bg-opacity mt-4">
+<!-- <div class="container --bs-bg-opacity mt-4">
   <div class="col-md-12 text-center">
     <button type="button" class="btn btn-dark">View All Resources</button>
   </div>
-</div>
+</div> -->

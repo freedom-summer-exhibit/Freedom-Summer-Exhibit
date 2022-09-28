@@ -65,3 +65,9 @@ collections:
     output: true
     url: /education/
 
+defaults:
+  - scope:
+      path: "assets/images/Education"
+    values:
+      image: true
+

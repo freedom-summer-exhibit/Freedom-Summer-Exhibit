@@ -1,7 +1,7 @@
 ---
 title: Themes
 layout: default
-image: /assets/images/Complete/Unity_02.jpg
+image: /assets/images/Complete/Empowerment_01_Replace.jpg
 image_alt: Finding Freedom Summer Traveling Exhibit Themes Landing Page
 permalink: /themes
 ---
@@ -12,7 +12,7 @@ permalink: /themes
 {% assign theme_pages = site.themes %}
 {% assign theme_items = site.data.image_captions %}
     {% for theme in theme_items %}
-        {% if theme.Filename contains "_01" %}
+        {% if theme.Filename contains "01" %}
         <div class="card p-2 mt-3 border-0 bg-transparent col-12 col-sm-6 col-md-4 hv_container" style="max-width: 20rem">
         <a href="/themes/{{ theme.Themes | downcase }}">
             <img src="../assets/images/Complete/{{ theme.Filename }}" alt='{{ theme.CreditLine }}' class="card-img hv_image"/>
