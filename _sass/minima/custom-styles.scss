@@ -98,15 +98,9 @@ small {
 // ===================== About card circles
 
 #about_gallery {
-  min-width: 150%;
-  margin-left: -25%;
-  margin-right: auto;
-
-  @include media-breakpoint-down(lg) {
-    min-width: 100%;
-    margin-left: 0;
-    margin-right: auto;
-  }
+  // min-width: 150%;
+  // margin-left: -25%;
+  // margin-right: auto;
 }
 
 .card-img {

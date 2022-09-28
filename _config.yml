@@ -61,7 +61,7 @@ collections:
   themes: 
     output: true
     url: /themes/
-  resources: 
+  education: 
     output: true
-    url: /resources/
+    url: /education/
 

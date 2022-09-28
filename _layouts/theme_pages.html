@@ -7,13 +7,13 @@
       {% assign themes = site.data.image_captions | where: "Themes", title %}
       <h2>{{title}}</h2>
       {% for theme in themes %}
-      {% assign value = forloop.index | modulo: 2%}
+      {% assign value = forloop.index | modulo: 2 %}
       {% if theme.Filename != "---" %}
       <div class="card mt-4 border-0 bg-transparent">
         <div class="row g-0">
           {% if value == 0 %}
           <div class="col-md-9">
-            <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+            <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{theme.CreditLine}}"
               class="img-fluid rounded-start">
           </div>
           <div class="col-md-3 d-flex bg-blue-tran">
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="col-md-9">
-            <img src="../assets/images/theme_images/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+            <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{theme.CreditLine}}"
               class="img-fluid rounded-start">
           </div>
           {% endif %}
