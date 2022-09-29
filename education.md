@@ -22,7 +22,7 @@ capacities.
 <div class="container col bg-secondary bg-opacity-25">
     <!-- Upper Row -->
     <div class="row" style="margin-top: 2rem;">
-        <div class="col">
+        <div class="col-12 col-md-6">
             <!-- Card 1 -->
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
@@ -35,7 +35,7 @@ capacities.
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6">
             <!-- Card 2 -->
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
@@ -52,7 +52,7 @@ capacities.
     <!-- Under Row -->
     <!-- Card 3 -->
     <div class="row" style="margin-bottom: 3rem;">
-        <div class="col">
+        <div class="col-12 col-md-6">
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
@@ -64,7 +64,7 @@ capacities.
             </div>
         </div>
         <!-- Card 4 -->
-        <div class="col">
+        <div class="col-12 col-md-6">
             <div class="card width-100 border-0 mb-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
@@ -84,12 +84,12 @@ capacities.
     <div class="row">
     {% for card in categories %}
     {% if card.page-order >= 5 %}
-      <div class="col-6">
-        <div class="card width-100 border-0 mb-2 bg-transparent">
+      <div class="col-md-6">
+        <div class="card border-0 bg-transparent">
         {% assign image_files = site.static_files | where: "image", true %}
         {% for myimage in image_files %}
         {% if myimage.basename == card.title %}
-        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img-top" alt="{{ myimage.basename }}" />
+        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img" alt="{{ myimage.basename }}" />
         {% endif %}
         {% endfor %}
           <div class="card-body">
@@ -107,6 +107,6 @@ capacities.
 
 <div class="container --bs-bg-opacity mt-4">
   <div class="col-md-12 text-center">
-    <button type="button" class="btn btn-dark">Download All Lesson Plans</button>
+    <a type="button" class="btn btn-dark" href="/files/Complete_LessonPlans_2022-09-29.pdf" target="_blank" >Download All Lesson Plans</a>
   </div>
 </div>

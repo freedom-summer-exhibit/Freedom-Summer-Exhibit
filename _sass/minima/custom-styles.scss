@@ -62,6 +62,13 @@ a.nav-link {
 }
 
 // Cutomized Buttons
+a.btn.btn-dark{
+  color: $white !important;
+  &:visited{
+    color: $white !important;
+  }
+}
+
 .btn-outline-primary-fs {
   color: $purple-700 !important;
   border-color: $blue-700 !important;
@@ -97,7 +104,7 @@ small {
 // ===================== About card circles
 .card-img {
   width: 200px;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   filter: grayscale(1);
 }
@@ -222,15 +229,4 @@ mw-100 {
   max-width: 70rem;
   color: #003e7e;
   font-family: "Adelle Regular";
-}
-
-// Education Landing Page
-div.col-6 > div.card > img{
-  max-height: 300px;
-  object-fit: cover;
-}
-
-div.col-4 > div.card > img{
-  max-height: 200px;
-  object-fit: cover;
 }

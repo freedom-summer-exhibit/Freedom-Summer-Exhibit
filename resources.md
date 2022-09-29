@@ -5,18 +5,21 @@ image: /assets/images/Complete/Courage_04.jpg
 image_alt: 
 permalink: /resources
 ---
+
+## {{page.title}}
+
 <div class="container-fluid">
   {% assign categories = site.education | sort: "page-order" %}
   <!-- Upper Row -->
-    <div class="row">
+    <div class="row gx-5">
     {% for card in categories %}
     {% if card.page-order < 5 %}
-      <div class="col-6">
-        <div class="card width-100 border-0 mb-2 bg-transparent">
+      <div class="col-md-6">
+        <div class="card border-0 bg-transparent">
         {% assign image_files = site.static_files | where: "image", true %}
         {% for myimage in image_files %}
         {% if myimage.basename == card.title %}
-        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img-top" alt="{{ myimage.basename }}" />
+        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img" alt="{{ myimage.basename }}" />
         {% endif %}
         {% endfor %}
           <div class="card-body">
@@ -30,4 +33,4 @@ permalink: /resources
       {% endif %}
     {% endfor %}
     </div>
-    </div>
+</div>
