@@ -1,7 +1,7 @@
 ---
 title: Resources
 layout: default
-image: /assets/images/Complete/Leadership_01_Replace.jpg
+image: /assets/images/Complete/Courage_04.jpg
 image_alt: 
 permalink: /resources
 ---
@@ -10,7 +10,7 @@ permalink: /resources
   <!-- Upper Row -->
     <div class="row">
     {% for card in categories %}
-    {% if card.page-order != 5 %}
+    {% if card.page-order < 5 %}
       <div class="col-6">
         <div class="card width-100 border-0 mb-2 bg-transparent">
         {% assign image_files = site.static_files | where: "image", true %}

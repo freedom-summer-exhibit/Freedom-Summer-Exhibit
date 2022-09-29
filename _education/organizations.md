@@ -1,7 +1,7 @@
 ---
 title: Organizations and Archives
 layout: default
-permalink: /education/organizations/
+permalink: /resources/organizations/
 size: 12
 page-order: 3
 ---

@@ -1,7 +1,7 @@
 ---
 title: Books and Documentaries
 layout: default
-permalink: /education/books-docs/
+permalink: /resources/books-docs/
 size: 30
 page-order: 2
 ---
@@ -27,8 +27,3 @@ page-order: 2
     </li>
     {% endfor %}
 </ul>
-
-<script>
-    console.log("{{ books | size }}");
-    console.log("{{ documentaries | size }}");
-</script>

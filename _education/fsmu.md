@@ -1,7 +1,7 @@
 ---
 title: Freedom Summer at Miami University
 layout: default
-permalink: /education/fsmu
+permalink: /resources/fsmu
 size: 7
 page-order: 1
 ---

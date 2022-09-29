@@ -1,7 +1,7 @@
 ---
 title: Freedom Summer Lesson Plans
 layout: default
-permalink: /education/lesson
+permalink: /resources/lesson
 size: 8
 page-order: 4
 ---

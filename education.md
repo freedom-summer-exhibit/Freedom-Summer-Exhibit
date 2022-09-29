@@ -83,11 +83,8 @@ capacities.
   <!-- Upper Row -->
     <div class="row">
     {% for card in categories %}
-      {% if card.page-order < 3 %} 
+    {% if card.page-order >= 5 %}
       <div class="col-6">
-      {% else %}
-       <div class="col-4">
-       {% endif %}
         <div class="card width-100 border-0 mb-2 bg-transparent">
         {% assign image_files = site.static_files | where: "image", true %}
         {% for myimage in image_files %}
@@ -103,12 +100,13 @@ capacities.
           </div>
         </div>
       </div>
+      {% endif %}
     {% endfor %}
     </div>
     </div>
 
-<!-- <div class="container --bs-bg-opacity mt-4">
+<div class="container --bs-bg-opacity mt-4">
   <div class="col-md-12 text-center">
-    <button type="button" class="btn btn-dark">View All Resources</button>
+    <button type="button" class="btn btn-dark">Download All Lesson Plans</button>
   </div>
-</div> -->
+</div>
