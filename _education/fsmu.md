@@ -3,7 +3,7 @@ title: Freedom Summer at Miami University
 layout: default
 permalink: /education/fsmu
 size: 7
-page-order: 3
+page-order: 1
 ---
 
 <ul>

@@ -9,8 +9,7 @@ permalink: /themes
 ## There are 12 themes designed to engage students to learn more.
 
 <div class="row mt-5 d-flex justify-content-center" id="about_gallery">
-{% assign theme_pages = site.themes %}
-{% assign theme_items = site.data.image_captions %}
+{% assign theme_items = site.data.image_captions | sort: "Order"%}
     {% for theme in theme_items %}
         {% if theme.Filename contains "1" %}
         <div class="card p-2 mt-3 border-0 bg-transparent col-12 col-sm-6 col-md-4 hv_container" style="max-width: 20rem">

@@ -1,9 +1,9 @@
 ---
-title: Lesson Plans
+title: Freedom Summer Lesson Plans
 layout: default
 permalink: /education/lesson
 size: 8
-page-order: 2
+page-order: 4
 ---
 
 <ul>

@@ -1,13 +1,13 @@
 ---
-title: Finding Freedom Summer Traveling Exhibit
+title: History
 layout: default
 image: /assets/images/Complete/Leadership_01_Replace.jpg
-image_alt: Finding Freedom Summer Traveling Exhibit
+image_alt: History
 permalink: /history
 ---
 
 {:#history}
-## History
+## {{ page.title }}
 
 The Freedom Summer story altered the course of the Civil Rights Movement
 and transformed a nation, offering a relevant, powerful teacher for future

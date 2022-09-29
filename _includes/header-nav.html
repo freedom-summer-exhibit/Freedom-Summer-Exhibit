@@ -11,7 +11,7 @@
 
       <ul class="navbar-nav me-auto d-flex justify-content-between w-100">
         {% for item in site.data.navbar %}
-        {% if forloop.last == false %}
+        {% if item.name != "Themes" %}
         <li class="nav-item">
           <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
         </li>
@@ -20,12 +20,12 @@
         <li class="nav-item">
           <div class="btn-group">
             <a class="nav-link" type="btn" href="{{ item.link }}">{{ item.name }}</a>
-            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split"
               data-bs-toggle="dropdown" aria-expanded="false">
               <span class="visually-hidden">Toggle Dropdown</span>
             </button>
 
-            {% assign themes = site.themes%}
+            {% assign themes = site.themes | sort: "order" %}
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% for theme in themes %}
               <li><a class="dropdown-item text-wrap lh-1 my-2" href="{{ theme.url }}">{{theme.title}}</a></li>
@@ -36,7 +36,7 @@
         {% endif %}
         {% endfor %}
         <li class="nav-item ">
-          <a href="/plan-a-visit" class="btn btn-outline-primary-fs">Reserve the exhibit</a>
+          <a href="/reserve" class="btn btn-outline-primary-fs">Reserve the Exhibit</a>
         </li>
       </ul>
 

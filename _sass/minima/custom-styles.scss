@@ -75,14 +75,6 @@ a.nav-link {
 
 // ===================== footer.html
 // needs alternate footer font stylization within home?
-svg {
-  -webkit-filter: invert(100%);
-  /* safari 6.0 - 9.0 */
-  filter: invert(100%);
-  opacity: 85%;
-  width: 1rem;
-  height: auto;
-}
 
 small {
   font-size: 0.5rem;
@@ -93,6 +85,13 @@ small {
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
+
+  a{
+    align-self: center;
+    &:visited{
+      color: black !important;
+    }
+  }
 }
 
 // ===================== About card circles

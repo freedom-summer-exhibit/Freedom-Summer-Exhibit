@@ -3,7 +3,7 @@ title: Organizations and Archives
 layout: default
 permalink: /education/organizations/
 size: 12
-page-order: 5
+page-order: 3
 ---
 
 <ul>

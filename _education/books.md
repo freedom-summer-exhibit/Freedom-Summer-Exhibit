@@ -2,8 +2,8 @@
 title: Books and Documentaries
 layout: default
 permalink: /education/books-docs/
-size: 16
-page-order: 30
+size: 30
+page-order: 2
 ---
 
 ### Books

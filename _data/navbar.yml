@@ -1,9 +1,12 @@
 #_data/navbar.yml
-- name: About the Exhibit
+- name: About
   link: /
 - name: History
   link: /history
-- name: Education
-  link: /education
 - name: Themes
   link: /themes
+- name: Education
+  link: /education
+- name: Resources
+  link: /resources
+
