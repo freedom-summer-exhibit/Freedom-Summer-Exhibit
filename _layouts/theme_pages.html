@@ -14,7 +14,7 @@
           <div class="col-md-9">
             <!-- Button trigger modal -->
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#file{{ forloop.index }}">
-              <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+              <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{ theme.CreditLine | raw }}"
                 class="img-fluid rounded-start">
             </button>
 
@@ -28,8 +28,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+                    <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{ theme.CreditLine | raw }}"
                       class="img-fluid rounded-start">
+                      <p class="mt-2">{{theme.CreditLine | raw }}</p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -41,19 +42,19 @@
 
           <div class="col-md-3 d-flex bg-blue-tran">
             <div class="card-body">
-              <p class="card-text">{{theme.CreditLine}}</p>
+              <p class="card-text">{{theme.CreditLine | raw }}</p>
             </div>
           </div>
           {% else %}
           <div class="col-md-3 d-flex bg-blue-tran">
             <div class="card-body">
-              <p class="card-text">{{theme.CreditLine}}</p>
+              <p class="card-text">{{theme.CreditLine | raw }}</p>
             </div>
           </div>
           <div class="col-md-9">
             <!-- Button trigger modal -->
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#file{{ forloop.index }}">
-              <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+              <img src="../assets/images/Complete/{{ theme.Filename }}" alt="{{theme.CreditLine | raw }}"
                 class="img-fluid rounded-start">
             </button>
 
@@ -67,8 +68,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{theme.CreditLine}}"
+                    <img src="../assets/images/Complete/{{theme.Filename}}" alt="{{ theme.CreditLine | raw }}"
                       class="img-fluid rounded-start">
+                      <p class="mt-2">{{theme.CreditLine | raw }}</p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

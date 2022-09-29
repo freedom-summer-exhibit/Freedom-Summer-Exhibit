@@ -2,7 +2,7 @@
 title: Resources
 layout: default
 image: /assets/images/Complete/Courage_04.jpg
-image_alt: 
+image_alt: "Western College Sign with Three Young People, June 1964. Photograph by Herbert Randall. M351 Herbert Randall Freedom Summer Photographs, Historical Manuscripts, The University of Southern Mississippi."
 permalink: /resources
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Finding Freedom Summer Traveling Exhibit
 image: /assets/images/Complete/Bravery_03_Replace.jpg
-image_alt: About the Exibit
+image_alt: "We Shall Overcome; Summer Freedom Bus, 1964. Photograph by Steve Schapiro. Freedom Summer volunteers form a chain with their arms while singing 'We Shall Overcome' before they get on the bus to Mississippi. Photograph in the collection of Miami University Art Museum, Oxford Ohio. Partial gift of the artist and partial purchase with contributions from the Kezur Endowment Fund (2019.23.1)."
 layout: default
 permalink: /
 ---

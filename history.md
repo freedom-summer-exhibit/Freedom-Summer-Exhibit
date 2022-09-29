@@ -2,7 +2,7 @@
 title: History
 layout: default
 image: /assets/images/Complete/Leadership_01_Replace.jpg
-image_alt: History
+image_alt: "Bob Moses, June 1964. Photograph by Steve Schapiro. Picture of Bob Moses taken during the Freedom Summer orientation session in Oxford, Ohio. Photograph in the collection of Miami University Art Museum, Oxford Ohio. Partial gift of the artist and partial purchase with contributions from the Kezur Endowment Fund (2019.23.2)."
 permalink: /history
 ---
 

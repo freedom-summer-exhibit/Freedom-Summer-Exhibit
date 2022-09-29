@@ -54,6 +54,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+defaults:
+  - scope:
+      path: "assets/images/Education"
+    values:
+      image: true
+      
 sass:
     sass_dir: _sass
 
@@ -65,9 +71,5 @@ collections:
     output: true
     url: /education/
 
-defaults:
-  - scope:
-      path: "assets/images/Education"
-    values:
-      image: true
+
 

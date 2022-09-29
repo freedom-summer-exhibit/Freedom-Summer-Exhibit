@@ -2,7 +2,7 @@
 title: Education
 layout: default
 image: /assets/images/Complete/Passion_03_New.jpg
-image_alt: Education
+image_alt: "Freedom School, 1964. Photograph by Ken Thompson. Two girls looking out the window of a Freedom School. © The General Board of Global Ministries of the United Methodist Church, Inc. Used with permission of Global Ministries."
 permalink: /education
 ---
 
@@ -81,7 +81,7 @@ capacities.
 <div class="container-fluid">
   {% assign categories = site.education | sort: "page-order" %}
   <!-- Upper Row -->
-    <div class="row">
+    <div class="row gx-5">
     {% for card in categories %}
     {% if card.page-order >= 5 %}
       <div class="col-md-6">
