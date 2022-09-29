@@ -33,7 +33,7 @@ capacities.
         {% assign image_files = site.static_files | where: "image", true %}
         {% for myimage in image_files %}
         {% if myimage.basename == card.title %}
-        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img-top" alt="{{ myimage.basename }}" style="max-height: 400px; object-fit: cover;" />
+        <img src="/assets/images/Education/{{ myimage.name }}" class="card-img-top" alt="{{ myimage.basename }}" />
         {% endif %}
         {% endfor %}
           <div class="card-body">

@@ -224,3 +224,14 @@ mw-100 {
   color: #003e7e;
   font-family: "Adelle Regular";
 }
+
+// Education Landing Page
+div.col-6 > div.card > img{
+  max-height: 300px;
+  object-fit: cover;
+}
+
+div.col-4 > div.card > img{
+  max-height: 200px;
+  object-fit: cover;
+}
