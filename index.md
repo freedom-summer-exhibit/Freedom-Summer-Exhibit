@@ -18,7 +18,7 @@ Designed for students in the fourth grade level, the exhibit focuses on the summ
 <p>Academically, the experience encompasses elements of state and national history, social studies, language arts and visual arts. Socially, it traces the roots of the social strife and protest gripping the nation today.</p>
 
 <div class="float-end col-12 col-md-7 col-xl-6 col-xxl-5 mx-md-5 thank-you-banner h5">
-The “Finding Freedom Summer” team respectfully requests a grant from the Martha Holden Jennings Foundation to support the design and production of the traveling panel exhibit as a focal point for the deep learning experience. Limited additional funding supports lesson plan facilitation and logistical support bringing the exhibit to Ohio schools.
+Finding Freedom Summer Traveling Exhibit was generously funded by a grant from the Martha Holden Jennings Foundation to support excellence in public education throughout Ohio.
 </div>
 
 <p>The interdisciplinary Miami project team encompasses an impressive range of skills and backgrounds, from archivists and art museum directors to art education and communication design faculty. Team members already have committed the necessary time and expertise to planning and implementing the program and its core academic components.</p>

@@ -14,7 +14,3 @@ page-order: 3
     </li>
     {% endfor %}
 </ul>
-
-<script>
-    console.log("{{ organizations | size }}");
-</script>

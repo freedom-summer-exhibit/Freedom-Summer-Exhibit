@@ -14,7 +14,3 @@ page-order: 1
     </li>
     {% endfor %}
 </ul>
-
-<script>
-    console.log("{{ activities | size }}");
-</script>

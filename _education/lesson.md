@@ -17,7 +17,3 @@ page-order: 4
     {% endfor %}
 </ul>
 
-<script>
-    console.log("{{ booksByAge | size }}");
-</script>
-
