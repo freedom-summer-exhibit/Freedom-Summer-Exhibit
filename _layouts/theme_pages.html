@@ -5,7 +5,12 @@
     <div class="container col-12 col-lg-8">
       {% assign title = page.title %}
       {% assign themes = site.data.image_captions | where: "Themes", title %}
-      <h2 class="text-center">{{title}}</h2>
+      <div class="container --bs-bg-opacity">
+        <div class="col-md-12 text-center">
+          <h2 class="text-center">{{title}}</h2>
+          <a type="button" class="btn btn-dark" href="/" target="_blank">Download {{page.title}} Lesson Plans</a>
+        </div>
+      </div>
       {% for theme in themes %}
       {% assign value = forloop.index | modulo: 2 %}
       <div class="card my-5 border-0 bg-transparent">
