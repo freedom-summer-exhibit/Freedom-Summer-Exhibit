@@ -2,7 +2,7 @@
 title: Education Standards
 layout: default
 permalink: /education/education-standards
-size: 5
+size: 3
 page-order: 6
 ---
 
