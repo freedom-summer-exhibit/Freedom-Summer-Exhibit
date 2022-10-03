@@ -5,10 +5,16 @@
     <div class="container col-12 col-lg-8">
       {% assign title = page.title %}
       {% assign themes = site.data.image_captions | where: "Themes", title %}
+      {% assign downloadURL = site.data.image_captions %}
+      {% for url in downloadURL %}
+      {% if url.Download contains title %}
+      {% capture downloadLink %}{{url.Download}}{% endcapture %}
+      {% endif %}
+      {% endfor %}
       <div class="container --bs-bg-opacity">
         <div class="col-md-12 text-center">
           <h2 class="text-center">{{title}}</h2>
-          <a type="button" class="btn btn-dark" href="/" target="_blank">Download {{page.title}} Lesson Plans</a>
+          <a type="button" class="btn btn-dark" href=" {{ downloadLink }}" target="_blank">Download {{page.title}} Lesson Plans</a>
         </div>
       </div>
       {% for theme in themes %}
