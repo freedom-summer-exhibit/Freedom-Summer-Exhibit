@@ -23,7 +23,7 @@ The panels arrive in labeled carrying cases for easy identification, assembly, a
 
 ### Scheduling
 
-See the [Current Availability Schedule](https://muohio.libcal.com/equipment/item/103944) to reserve the exhibit. 
+See the [Current Availability Schedule](https://muohio.libcal.com/equipment/item/103944){:target="_blank"} to reserve the exhibit. 
 When you request a booking, you will be connected with the exhibit coordinators who will contact you to complete the scheduling process. 
 
 For more information please contact [findingfreedom@miamioh.edu](mailto:findingfreedom@miamioh.edu). 
