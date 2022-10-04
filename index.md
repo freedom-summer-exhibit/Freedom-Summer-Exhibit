@@ -19,7 +19,7 @@ The exhibit, researched and designed by Miami students and faculty, includes com
 <div class="col-md-6">
 <!-- Button trigger modal -->
 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#file-1">
-    <img src="../assets/images/Panels_1.jpg" alt="Panel 1" class="rounded-start">
+    <img src="../assets/images/Panels_1.jpg" alt="Panels 1-6" class="rounded-start">
 </button>
 
 <!-- Modal -->
@@ -28,11 +28,11 @@ The exhibit, researched and designed by Miami students and faculty, includes com
     <div class="modal-dialog" style="max-width: 90vw;">
     <div class="modal-content">
         <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Panel 1</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Panels 1-6</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <img src="../assets/images/Panels_1.jpg" alt="Panel 1" class="img-fluid rounded-start">
+        <img src="../assets/images/Panels_1.jpg" alt="Panels 1-6" class="img-fluid rounded-start">
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -45,7 +45,7 @@ The exhibit, researched and designed by Miami students and faculty, includes com
 <div class="col-md-6">
 <!-- Button trigger modal -->
 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#file-2">
-    <img src="../assets/images/Panels_2.jpg" alt="Panel 2" class="rounded-start">
+    <img src="../assets/images/Panels_2.jpg" alt="Panels 7-12" class="rounded-start">
 </button>
 
 <!-- Modal -->
@@ -54,11 +54,11 @@ The exhibit, researched and designed by Miami students and faculty, includes com
     <div class="modal-dialog" style="max-width: 90vw;">
     <div class="modal-content">
         <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Panel 2</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Panels 7-12</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <img src="../assets/images/Panels_2.jpg" alt="Panel 1" class="img-fluid rounded-start">
+        <img src="../assets/images/Panels_2.jpg" alt="Panels 7-12" class="img-fluid rounded-start">
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
