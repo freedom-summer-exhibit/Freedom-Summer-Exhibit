@@ -110,8 +110,12 @@ h1{
   font-family: Adelle Heavy;
 }
 
-h2{
+h2, h3{
   font-family: Adelle Regular;
+}
+
+h3{
+  margin-top: $spacing-unit !important;
 }
 
 

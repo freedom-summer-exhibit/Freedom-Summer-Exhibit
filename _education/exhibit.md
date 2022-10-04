@@ -17,6 +17,8 @@ Lesson plans for Ohio 4th and 5th grade students were created by ART 195 – Int
         <p>Grade: {{ exhibit.grades }}</p>
         <p>{{ exhibit.description }}</p>
     </li>
+    {% unless forloop.last %}
     <hr>
+    {% endunless %}
     {% endfor %}
 </ul>

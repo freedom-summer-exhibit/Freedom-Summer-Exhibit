@@ -24,6 +24,8 @@ Lesson plans for the *Finding Freedom Summer Traveling Exhibit* were created to 
         <p>{{ standard.description }}</p>
         {% endif %}
     </li>
+    {% unless forloop.last %}
     <hr>
+    {% endunless %}
     {% endfor %}
 </ul>
