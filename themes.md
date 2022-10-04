@@ -6,7 +6,8 @@ image_alt: "John Lewis, 1963. Photograph by Steve Schapiro. Portrait of John Lew
 permalink: /themes
 ---
 
-## There are 12 themes designed to engage students to learn more.
+
+<div class="mt-5 lead">Each panel in the exhibit has a big idea or theme relating to character traits of engaged citizenship, 2-4 photographs that relate to the big idea, and a historical narrative provided to add context for those who are engaging with the panels in more informal ways. The exhibit panel images presented here allow students to engage with powerful visual imagery and storytelling  and can be used as a supplement to the lesson plans or exhibit panel viewing.</div>
 
 <div class="row mt-5 d-flex justify-content-center" id="about_gallery">
 {% assign theme_items = site.data.image_captions %}

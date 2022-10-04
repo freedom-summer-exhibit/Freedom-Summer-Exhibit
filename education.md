@@ -17,27 +17,27 @@ The 12 arts-integrated lesson plans developed to accompany the exhibit focus on 
     <div class="row" style="margin-top: 2rem;">
         <div class="col-12 col-md-6">
             <!-- Card 1 -->
-            <div class="card width-100 border-0 mb-2 bg-transparent">
+            <div class="card width-100 border-0 my-2 bg-transparent">
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
                         <img src="/assets/images/Icons/Recognize_icon.png" alt="Recognize" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Recognize</h5>
-                    <p class="card-text" style="margin-left: 4rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
+                    <p class="card-text lead" style="margin-left: 4rem;">connections between Freedom Summer's people, places, and topics through visual communication and scaffolded reflection.</p>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6">
             <!-- Card 2 -->
-            <div class="card width-100 border-0 mb-2 bg-transparent">
+            <div class="card width-100 border-0 my-2 bg-transparent">
                 <div class="card-body">
                     <!-- Cannot currently see if this will appear as we want-->
                     <div class="float-start">
                         <img src="/assets/images/Icons/Create_icon.png" alt="Create" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Create</h5>
-                    <p class="card-text" style="margin-left: 4rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
+                    <p class="card-text lead" style="margin-left: 4rem;">a visual representation communicating new understanding of Freedom Summer, relating a big idea connecting the past, present, and personal experience.</p>
                 </div>
             </div>
         </div>
@@ -46,25 +46,25 @@ The 12 arts-integrated lesson plans developed to accompany the exhibit focus on 
     <!-- Card 3 -->
     <div class="row" style="margin-bottom: 3rem;">
         <div class="col-12 col-md-6">
-            <div class="card width-100 border-0 mb-2 bg-transparent">
+            <div class="card width-100 border-0 my-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
                         <img src="/assets/images/Icons/Synthesize_icon.png" alt="Synthesize" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Synthesize</h5>
-                    <p class="card-text" style="margin-left: 4rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
+                    <p class="card-text lead" style="margin-left: 4rem;">historical content with personal experiences to increase empathy for others and advocate for human rights and social justice.</p>
                 </div>
             </div>
         </div>
         <!-- Card 4 -->
         <div class="col-12 col-md-6">
-            <div class="card width-100 border-0 mb-2 bg-transparent">
+            <div class="card width-100 border-0 my-2 bg-transparent">
                 <div class="card-body">
                     <div class="float-start">
                         <img src="/assets/images/Icons/Reflect_icon.png" alt="Reflect" class="circle">
                     </div>
                     <h5 class="card-title" style="margin-left: 4rem;">Reflect</h5>
-                    <p class="card-text" style="margin-left: 4rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
+                    <p class="card-text lead" style="margin-left: 4rem;">on meaning through artwork, individually and collectively, privately and in public spaces educating others in the community.</p>
                 </div>
             </div>
         </div>

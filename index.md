@@ -8,31 +8,25 @@ permalink: /
 
 ## {{page.title}}
 
-The Freedom Summer Traveling exhibit connects a powerful chapter of U.S. civil rights history to current day challenges, “Finding Freedom Summer” offers timely reminders of our nation’s troubled history, emphasizes the social-emotional attributes of those who stand to make a difference, and challenges youth to find and understand the power of their voices.
+Created by an interdisciplinary team of Miami University faculty and staff, the *Finding Freedom Summer Traveling Exhibit*, along with corresponding lesson plans, teaches fourth and fifth grade students timely lessons about the civil rights movement, racial injustice and civil unrest. This project was funded as a deep-learning grant by the Martha Holden Jennings Foundation of Cleveland, Ohio.
 
-Designed for students in the fourth grade level, the exhibit focuses on the summer of 1964 and the Freedom Summer training that took place on Oxford, Ohio’s, Western College for Women, this deep learning project, rooted in art integration but versatile in its applications, challenges students to apply four active learning capacities:
+Based on the 1964 Freedom Summer Training Program hosted on the campus of Western College for Women in Oxford, Ohio, the panels tell a compelling visual story using documentary photography rooted in local history, activism, and civic participation. The Freedom Summer Training Program prepared approximately 800 volunteer college students to register Black voters in Mississippi. Four sets of the 12-panel exhibit are available to be used in schools, libraries, and other organizations throughout Ohio and beyond. 
 
-<div>
-<p>Through engagement with powerful visual imagery and storytelling, the curiosity and enthusiasm stimulated by the arrival of a traveling exhibit, and immersive lesson plans connecting the past with themes relevant and important to today’s students, the project aims to draw students from across Ohio deeply into a multi-faceted learning experience stimulating critical thinking, social emotional learning, and creative expression.</p>
+The exhibit, researched and designed by Miami students and faculty, includes complementary lesson plans developed by two sections of a Miami undergraduate art education class and a professional development training program for educators interested in using the panel exhibit in their classroom.
 
-<p>Academically, the experience encompasses elements of state and national history, social studies, language arts and visual arts. Socially, it traces the roots of the social strife and protest gripping the nation today.</p>
+### Why It Matters
+<div class="mt-3">
+<p>
+The Freedom Summer story is an example of local history that altered the course of the Civil Rights Movement and transformed a nation, offering a relevant and powerful teachable moment for future generations. We are again at a time in our nation’s history when our next generation must be challenged to understand our nation’s troubled past, reflect and think critically about the world around them, and productively channel their thoughts and feelings into personal expression
+</p>
 
 <div class="float-end col-12 col-md-7 col-xl-6 col-xxl-5 mx-md-5 thank-you-banner h5">
-Finding Freedom Summer Traveling Exhibit was generously funded by a grant from the Martha Holden Jennings Foundation to support excellence in public education throughout Ohio.
+<i>Finding Freedom Summer Traveling Exhibit</i> was generously funded by a grant from the Martha Holden Jennings Foundation to support excellence in public education throughout Ohio.
 </div>
 
-<p>The interdisciplinary Miami project team encompasses an impressive range of skills and backgrounds, from archivists and art museum directors to art education and communication design faculty. Team members already have committed the necessary time and expertise to planning and implementing the program and its core academic components.</p>
-
-<p>Topics related to civil rights and social justice are difficult to explore via textbook and classroom learning, and can be particularly difficult to grasp for students whose communities may be insulated against the reality and ramifications of racism. We are again at a time in our nation’s history when our next generation must be challenged to understand our nation’s troubled past, reflect and think critically about the world around them, and productively channel their thoughts and feelings into personal expression.</p>
-
-<p>The Finding Freedom Summer Traveling Exhibit project offers valuable background in history and social studies while stimulating social emotional learning, meaningful reflection and creative expression through language arts, the social visual arts and more. It reminds us all that the efforts of a handful of young people can sway a nation.</p>
-
-<p>Using the visual power of a traveling panel exhibit to tell the story of a crucial time in history, Finding Freedom Summer confronts a timely and critical need by presenting 4th-5th grade teachers with a series of adaptable lesson plans, a range of discussion-stimulating topics and a variety of activities channeling creative expression. The project connects the past with the present while immersing students deeply in timeless human themes and challenging them to find their voices.</p>
-
-<p>Miami University faculty, staff and the Western College Alumnae Association have leveraged the expertise of undergraduate student talent to develop and refine the lesson plans, activities and essential supporting resources.</p>
-
-<p>“Finding Freedom Summer” focuses on achieving a core set of educational outcomes through deep-learning practices. While its lesson plans can be seamlessly adapted for other grade levels, the project focuses initially on growth in the intellectual and social capacities of fourth and fifth graders. The Deep Learning section offers specific details on outcomes and deep-learning applications. Miami University Libraries is deeply committed to providing users with an educational experience that promotes the core values of Freedom Summer and the American civil rights movement.</p>
-
+<p>
+<i>Finding Freedom Summer Traveling Exhibit</i> offers valuable background in history and social studies while stimulating social emotional learning, meaningful reflection and creative expression through language arts, the social visual arts and more. It reminds us all that the efforts of a handful of young people can sway a nation. Using the visual power of a traveling panel exhibit to tell the story of a crucial time in history, <i>Finding Freedom Summer</i> confronts a timely and critical need by presenting 4th-5th grade teachers with a series of adaptable lesson plans, a range of discussion-stimulating topics and a variety of activities channeling creative expression. The exhibit connects the past with the present while immersing students deeply in timeless human themes and challenging them to find their voices.
+</p>
 
 </div>
 
