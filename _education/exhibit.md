@@ -13,7 +13,7 @@ Lesson plans for Ohio 4th and 5th grade students were created by ART 195 – Int
     {% for exhibit in exhibits %}
     <li class="mt-4 pb-2">
     <h3><small>{{ exhibit.title }}</small></h3>
-        <a href="{{ exhibit.url }}" target="_blank" class="h2"><i>{{ exhibit.linktext }}</i></a>
+        <a href="{{ exhibit.url }}" target="_blank" class="h2 text-nondec"><i>{{ exhibit.linktext }}</i></a>
         <p>Grade: {{ exhibit.grades }}</p>
         <p>{{ exhibit.description }}</p>
     </li>

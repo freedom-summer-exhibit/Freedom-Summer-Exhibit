@@ -13,7 +13,7 @@ Lesson plans for the *Finding Freedom Summer Traveling Exhibit* were created to 
     {% assign standards = site.data.related_resources | where: "category", "standard" %}
     {% for standard in standards %}
     <li class="mt-4 pb-2">
-        <a href="{{ standard.url }}" target="_blank" class="h2"><i>{{ standard.linktext }}</i></a>
+        <a href="{{ standard.url }}" target="_blank" class="h2 text-nondec"><i>{{ standard.linktext }}</i></a>
         {% if standard.linktext contains "Studies Standards" %}
         <p>Main 4th grade standards addressed in the lesson plans:</p>
             <div class="ps-5"><b>Historical Thinking and Skills</b>
