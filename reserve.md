@@ -16,10 +16,13 @@ The panels arrive in labeled carrying cases for easy identification, assembly, a
 ### Reservation and Fees
 
 + 8-week participation period: $150
-+ Host venue pays transportation and provides insurance coverage.
 + Some institutions may qualify for free or reduced fees and shipping; please contact us for details. 
-+ Exhibition can be transported via personal/institutional vehicle by school/library/university staff or shipped via UPS. UPS shipping fee in addition to participation fee.
 + Venues cover insurance of $2,500 in case of replacing a full set. 
+
+### Shipping
++ Exhibition can be transported via personal/institutional vehicle by school/library/university staff or shipped via FedEx or UPS. Shipping fee in addition to participation fee.
++ Ohio/Kentucky/Indiana shipping and handling: $100 flat rate
++ Other states: Contact us to calculate shipping costs
 
 ### Scheduling
 
